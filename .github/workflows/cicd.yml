@@ -20,9 +20,9 @@ jobs:
       - name: Login to docker hub
         run: docker login -u "${{ secrets.DOCKER_USERNAME }}" -p "${{ secrets.DOCKER_PASSWORD }}"
       - name: Build docker image
-        run: docker build -t ars_cicd.
+        run: docker build -t darshan1411/ars_cicd.
       - name: Push docker image
-        run: docker push ars_cicd:latest
+        run: docker push darshan1411/ars_cicd:latest
 
   deploy:
     needs: build
@@ -35,11 +35,11 @@ jobs:
             exit 1
           fi
       - name: Pull image from docker hub
-        run: sudo docker pull ars_cicd:latest
+        run: sudo docker pull darshan1411/ars_cicd:latest
       - name: Delete existing container
         run: |
           if [ "$(sudo docker ps -aq -f name=ars-container)" ]; then
             sudo docker rm -f ars-container
           fi
       - name: Run docker container
-        run: sudo docker run -d -p 8080:8080 --name ars-container ars_cicd
+        run: sudo docker run -d -p 8080:8080 --name ars-container darshan1411/ars_cicd
