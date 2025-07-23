@@ -1,8 +1,8 @@
 package org.sports.cricket.controller;
 
 import org.sports.cricket.model.Player;
-import org.sports.cricket.service.CountryService;
-import org.sports.cricket.service.CountryServiceImpl;
+import org.sports.cricket.model.PlayerForm;
+import org.sports.cricket.service.FormInputOptionsService;
 import org.sports.cricket.service.PlayerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
@@ -19,7 +19,7 @@ public class PlayerController {
     private PlayerService playerService;
 
     @Autowired
-    private CountryService countryService;
+    private FormInputOptionsService formInputOptionsService;
 
     @GetMapping("/")
     public String viewHomePage(Model model) {
@@ -29,17 +29,19 @@ public class PlayerController {
     @GetMapping("/showNewPlayerForm")
     public String showNewplayerForm(Model model) {
         // create model attribute to bind form data
-        Player player = new Player();
-        model.addAttribute("player", player);
-        model.addAttribute("countries", countryService.getAllCountries());
+        PlayerForm playerForm = new PlayerForm();
+        model.addAttribute("playerForm", playerForm);
+        model.addAttribute("countries", formInputOptionsService.getAllCountries());
+        model.addAttribute("playingTypes", formInputOptionsService.getAllPlayingType());
+        model.addAttribute("baseAmounts", formInputOptionsService.getAllBaseAmounts());
         return "new_player";
     }
 
     @PostMapping("/savePlayer")
-    public String savePlayer(@ModelAttribute("player") Player player) {
+    public String savePlayer(@ModelAttribute("player") PlayerForm playerForm) {
         // save player to database
-        System.out.println(player.getFirstName()+"\t"+player.getLastName()+"\t"+player.getDt_birth());
-        playerService.savePlayer(player);
+        System.out.println(playerForm.getFirstName()+"\t"+playerForm.getLastName()+"\t"+playerForm.getDt_birth());
+        playerService.savePlayer(playerForm);
         return "redirect:/";
     }
 
@@ -70,7 +72,11 @@ public class PlayerController {
         int pageSize = 5;
 
         Page<Player> page = playerService.findPaginated(pageNo, pageSize, sortField, sortDir);
-        List<Player> listPlayers = page.getContent();
+        //List<Player> listPlayers = page.getContent();         -- To Display only Auctioned players.
+        List<Player> listPlayers = page.getContent()
+                .stream()
+                .filter(p -> "To Be Auctioned".equalsIgnoreCase(p.getStatus()))
+                .toList();
 
         model.addAttribute("currentPage", pageNo);
         model.addAttribute("totalPages", page.getTotalPages());

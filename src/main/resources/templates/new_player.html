@@ -14,7 +14,7 @@
 		<hr>
 		<h2>Save Player</h2>
 
-		<form action="#" th:action="@{/savePlayer}" th:object="${player}"
+		<form action="#" th:action="@{/savePlayer}" th:object="${playerForm}"
 			method="POST">
 				<input type="text" th:field="*{firstName}"
 				placeholder="Player First Name" class="form-control mb-4 col-4">
@@ -28,14 +28,40 @@
 				<select th:field="*{country}" class="form-control mb-4 col-4">
 					<option value="" disabled selected>Select a country</option>
 					<option th:each="countryItem : ${countries}"
-							th:value="${countryItem}"
-							th:text="${countryItem}">
+							th:value="${countryItem.cd_country}"
+							th:text="${countryItem.dc_country}">
 					</option>
 				</select>
 
-				<!-- <input type="date" th:field="*{dt_birth}"
+				 <input type="date" th:field="*{dt_birth}"
 					   placeholder="Date of Birth"
-					   class="form-control mb-4 col-4"> -->
+					   class="form-control mb-4 col-4">
+
+				<select th:field="*{playingType}" class="form-control mb-4 col-4">
+					<option value="" disabled selected>Select a country</option>
+					<option th:each="playingTypeItem : ${playingTypes}"
+							th:value="${playingTypeItem.cd_player_role}"
+							th:text="${playingTypeItem.dc_player_role}">
+					</option>
+				</select>
+
+				<select th:field="*{isCapped}" class="form-control mb-4 col-4">
+					<option value="" disabled selected>Select a country</option>
+					<option th:value="capped"
+							th:text="Capped">
+					</option>
+					<option th:value="uncapped"
+							th:text="Uncapped">
+					</option>
+				</select>
+
+				<select th:field="*{baseAmount}" class="form-control mb-4 col-4">
+					<option value="" disabled selected>Select a country</option>
+					<option th:each="baseAmountItem : ${baseAmounts}"
+							th:value="${baseAmountItem}"
+							th:text="${baseAmountItem}">
+					</option>
+				</select>
 				
 				<button type="submit" class="btn btn-info col-2"> Save Player</button>
 		</form>
