@@ -8,7 +8,7 @@ public class Player {
 
     @Id
     @GeneratedValue(strategy =  GenerationType.IDENTITY)
-    private long id;
+    private Long id;
 
     @Column(name = "id_set")
     private String idSet;
@@ -23,42 +23,34 @@ public class Player {
     private String country;
 
     @Column(name = "dt_birth")
-    private int dt_birth;
+    private Integer dt_birth;
 
     @Column(name = "age")
-    private int age;
+    private Integer age;
 
     @Column(name = "cd_player_role")
     private String playing_type;
 
     @Column(name = "in_cap")
-    private int in_cap;
+    private Integer in_cap;
 
     @Column(name = "in_overseas")
-    private int in_overseas;
+    private Integer in_overseas;
 
     @Column(name = "cd_team")
     private String cd_team;
 
     @Column(name = "am_base_rupees")
-    private double am_base_rupees;
+    private Double am_base_rupees;
 
     @Column(name = "am_base_dollar")
-    private double am_base_dollar;
+    private Double am_base_dollar;
 
     @Column(name = "dc_category")
     private String category;
 
     @Column(name = "dc_status")
     private String status;
-
-    public long getId() {
-        return id;
-    }
-
-    public void setId(long id) {
-        this.id = id;
-    }
 
     public String getIdSet() {
         return idSet;
@@ -92,19 +84,19 @@ public class Player {
         this.country = country;
     }
 
-    public int getDt_birth() {
+    public Integer getDt_birth() {
         return dt_birth;
     }
 
-    public void setDt_birth(int dt_birth) {
+    public void setDt_birth(Integer dt_birth) {
         this.dt_birth = dt_birth;
     }
 
-    public int getAge() {
+    public Integer getAge() {
         return age;
     }
 
-    public void setAge(int age) {
+    public void setAge(Integer age) {
         this.age = age;
     }
 
@@ -116,19 +108,19 @@ public class Player {
         this.playing_type = playing_type;
     }
 
-    public int getIn_cap() {
+    public Integer getIn_cap() {
         return in_cap;
     }
 
-    public void setIn_cap(int in_cap) {
+    public void setIn_cap(Integer in_cap) {
         this.in_cap = in_cap;
     }
 
-    public int getIn_overseas() {
+    public Integer getIn_overseas() {
         return in_overseas;
     }
 
-    public void setIn_overseas(int in_overseas) {
+    public void setIn_overseas(Integer in_overseas) {
         this.in_overseas = in_overseas;
     }
 
@@ -140,19 +132,19 @@ public class Player {
         this.cd_team = cd_team;
     }
 
-    public double getAm_base_rupees() {
+    public Double getAm_base_rupees() {
         return am_base_rupees;
     }
 
-    public void setAm_base_rupees(double am_base_rupees) {
+    public void setAm_base_rupees(Double am_base_rupees) {
         this.am_base_rupees = am_base_rupees;
     }
 
-    public double getAm_base_dollar() {
+    public Double getAm_base_dollar() {
         return am_base_dollar;
     }
 
-    public void setAm_base_dollar(double am_base_dollar) {
+    public void setAm_base_dollar(Double am_base_dollar) {
         this.am_base_dollar = am_base_dollar;
     }
 
@@ -170,5 +162,13 @@ public class Player {
 
     public void setStatus(String status) {
         this.status = status;
+    }
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
     }
 }
