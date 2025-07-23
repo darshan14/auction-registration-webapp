@@ -4,6 +4,7 @@ import org.springframework.format.annotation.DateTimeFormat;
 
 import java.time.LocalDate;
 
+//This class is created to get input from user fields.
 public class PlayerForm {
 
     @DateTimeFormat(iso = DateTimeFormat.ISO.DATE)
