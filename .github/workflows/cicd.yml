@@ -28,6 +28,15 @@ jobs:
     needs: build
     runs-on: [aws-ec2]
     steps:
+      - name: Verify Runner Identity
+        run: |
+          echo "Runner Name: $RUNNER_NAME"
+          echo "Runner OS: $RUNNER_OS"
+          echo "Runner Labels: $RUNNER_LABELS"
+          if [[ "$RUNNER_NAME" != *"ec2"* ]]; then
+            echo "Runner is not on EC2 as expected!"
+            exit 1
+          fi
       - name: Check Docker Installation
         run: |
           if ! [ -x "$(command -v docker)" ]; then
