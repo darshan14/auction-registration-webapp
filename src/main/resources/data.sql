@@ -1,29 +1,30 @@
-INSERT INTO ctcountry (cd_country, dc_country) VALUES
-('AFG', 'Afghanistan'),
-('AUS', 'Australia'),
-('BAN', 'Bangladesh'),
-('CAN', 'Canada'),
-('ENG', 'England'),         -- England does not have an ISO-3166 code, keeping 'ENG'
-('GER', 'Germany'),
-('FRA', 'France'),
-('IND', 'India'),
-('IRL', 'Ireland'),
-('PAK', 'Pakistan'),
-('NPL', 'Nepal'),
-('NLD', 'Netherlands'),
-('NZ', 'New Zealand'),
-('SCO', 'Scotland'),        -- Scotland does not have an ISO-3166 code, keeping 'SCO'
-('SA', 'South Africa'),
-('SL', 'Sri Lanka'),
-('WI', 'West Indies'),     -- West Indies is a cricket team region, not a country
-('USA', 'United States'),
-('ZIM', 'Zimbabwe');
+INSERT INTO ctcountry (cd_country_id, cd_country, dc_country) VALUES
+(1, 'AFG', 'Afghanistan'),
+(2, 'AUS', 'Australia'),
+(3, 'BAN', 'Bangladesh'),
+(4, 'CAN', 'Canada'),
+(5, 'ENG', 'England'),         -- England does not have an ISO-3166 code, keeping 'ENG'
+(6, 'GER', 'Germany'),
+(7,'FRA', 'France'),
+(8, 'IND', 'India'),
+(9, 'IRL', 'Ireland'),
+(10, 'PAK', 'Pakistan'),
+(11, 'NPL', 'Nepal'),
+(12, 'NLD', 'Netherlands'),
+(13, 'NZ', 'New Zealand'),
+(14, 'SCO', 'Scotland'),        -- Scotland does not have an ISO-3166 code, keeping 'SCO'
+(15, 'SA', 'South Africa'),
+(16, 'SL', 'Sri Lanka'),
+(17, 'WI', 'West Indies'),     -- West Indies is a cricket team region, not a country
+(18, 'USA', 'United States'),
+(19, 'ZIM', 'Zimbabwe'),
+(0, 'ROW', 'Rest Of World');
 
-INSERT INTO ctplayerrole (cd_player_role, dc_player_role) VALUES
-('BAT', 'Batter'),
-('BWL', 'Bowler'),
-('ALL', 'All Rounder'),
-('WK',  'Wicket Keeper');
+INSERT INTO ctplayerrole (cd_player_role_id, cd_player_role, dc_player_role) VALUES
+(1, 'BAT', 'Batter'),
+(2, 'BWL', 'Bowler'),
+(3, 'ALL', 'All Rounder'),
+(4, 'WK',  'Wicket Keeper');
 
 INSERT INTO ctplayercategory VALUES (1, 'BAT', 1, 0, 20000000, 'Capped Indian Batter - Diamond');
 

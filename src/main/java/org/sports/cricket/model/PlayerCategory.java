@@ -10,8 +10,8 @@ import jakarta.persistence.Table;
 public class PlayerCategory {
 
     @Id
-    @Column(name = "cd_player_role_id")
-    private int cdPlayerRoleId;
+    @Column(name = "cd_cetegory_id")
+    private int cdPlayerCategoryId;
 
     @Column(name = "cd_player_role")
     private String cdPlayerRole;
@@ -28,12 +28,12 @@ public class PlayerCategory {
     @Column(name = "dc_category")
     private String dcCategory;
 
-    public int getCdPlayerRoleId() {
-        return cdPlayerRoleId;
+    public int getCdPlayerCategoryId() {
+        return cdPlayerCategoryId;
     }
 
-    public void setCdPlayerRoleId(int cdPlayerRoleId) {
-        this.cdPlayerRoleId = cdPlayerRoleId;
+    public void setCdPlayerCategoryId(int cdPlayerCategoryId) {
+        this.cdPlayerCategoryId = cdPlayerCategoryId;
     }
 
     public String getCdPlayerRole() {

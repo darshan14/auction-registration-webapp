@@ -10,11 +10,22 @@ import jakarta.persistence.Table;
 public class PlayerRole {
 
     @Id
+    @Column(name = "cd_player_role_id")
+    private String cd_player_role_id;
+
     @Column(name = "cd_player_role")
     private String cd_player_role;
 
     @Column(name = "dc_player_role")
     private String dc_player_role;
+
+    public String getCd_player_role_id() {
+        return cd_player_role_id;
+    }
+
+    public void setCd_player_role_id(String cd_player_role_id) {
+        this.cd_player_role_id = cd_player_role_id;
+    }
 
     public String getCd_player_role() {
         return cd_player_role;

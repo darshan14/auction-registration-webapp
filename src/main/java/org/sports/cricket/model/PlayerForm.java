@@ -22,6 +22,14 @@ public class PlayerForm {
 
     private String baseAmount;
 
+    public LocalDate getDt_birth() {
+        return dt_birth;
+    }
+
+    public void setDt_birth(LocalDate dt_birth) {
+        this.dt_birth = dt_birth;
+    }
+
     public String getFirstName() {
         return firstName;
     }
@@ -44,14 +52,6 @@ public class PlayerForm {
 
     public void setCountry(String country) {
         this.country = country;
-    }
-
-    public LocalDate getDt_birth() {
-        return dt_birth;
-    }
-
-    public void setDt_birth(LocalDate dt_birth) {
-        this.dt_birth = dt_birth;
     }
 
     public String getPlayingType() {

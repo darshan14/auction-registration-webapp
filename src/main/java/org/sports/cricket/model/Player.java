@@ -3,7 +3,7 @@ package org.sports.cricket.model;
 import jakarta.persistence.*;
 
 @Entity
-@Table(name = "tbplayers")
+@Table(name = "tbplayerdisplay")
 public class Player {
 
     @Id
@@ -51,6 +51,14 @@ public class Player {
 
     @Column(name = "dc_status")
     private String status;
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
 
     public String getIdSet() {
         return idSet;
@@ -162,13 +170,5 @@ public class Player {
 
     public void setStatus(String status) {
         this.status = status;
-    }
-
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
     }
 }

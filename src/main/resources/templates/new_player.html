@@ -38,7 +38,7 @@
 					   class="form-control mb-4 col-4">
 
 				<select th:field="*{playingType}" class="form-control mb-4 col-4">
-					<option value="" disabled selected>Select a country</option>
+					<option value="" disabled selected>Select a Playing Role</option>
 					<option th:each="playingTypeItem : ${playingTypes}"
 							th:value="${playingTypeItem.cd_player_role}"
 							th:text="${playingTypeItem.dc_player_role}">
@@ -46,7 +46,6 @@
 				</select>
 
 				<select th:field="*{isCapped}" class="form-control mb-4 col-4">
-					<option value="" disabled selected>Select a country</option>
 					<option th:value="capped"
 							th:text="Capped">
 					</option>
@@ -56,7 +55,7 @@
 				</select>
 
 				<select th:field="*{baseAmount}" class="form-control mb-4 col-4">
-					<option value="" disabled selected>Select a country</option>
+					<option value="" disabled selected>Select a Base Amount</option>
 					<option th:each="baseAmountItem : ${baseAmounts}"
 							th:value="${baseAmountItem}"
 							th:text="${baseAmountItem}">
