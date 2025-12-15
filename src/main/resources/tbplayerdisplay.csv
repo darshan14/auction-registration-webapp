@@ -1,0 +1,621 @@
+id,id_set,first_name,last_name,cd_country,cd_state_assoc,age,cd_player_role,cd_batting_style,cd_bowling_style,in_cap,in_overseas,cd_team,am_base_rupees,am_base_dollar,dc_category,dc_status
+1,RT,Ruturaj,Gaikwad,IND,MACA,28,BAT,RHB,RIGHT ARM Off Spin,1,0,CSK,180000000,2163461.538,IPL Retaintion,Retained
+2,RT,Ravindra,Jadeja,IND,SCA,36,ALL,LHB,LEFT ARM Orthodox,1,0,CSK,180000000,2163461.538,IPL Retaintion,Retained
+3,RT,Matheesha,Pathirana,SL,OVS,22,BWL,RHB,RIGHT ARM Fast Medium,1,0,CSK,130000000,1562500,IPL Retaintion,Retained
+4,RT,Shivam,Dube,IND,MCA,32,BAT,LHB,RIGHT ARM Medium,1,0,CSK,120000000,1442307.692,IPL Retaintion,Retained
+5,RT,MS,Dhoni,IND,JSCA,44,WK,RHB,RIGHT ARM Medium,0,0,CSK,40000000,480769.2308,IPL Retaintion,Retained
+6,RT,Axar,Patel,IND,GUCA,31,BWL,LHB,LEFT ARM Orthodox,1,0,DC,165000000,1983173.077,IPL Retaintion,Retained
+7,RT,Kuldeep,Yadav,IND,UPCA,30,BWL,LHB,LEFT ARM Leg Spin,1,0,DC,132500000,1592548.077,IPL Retaintion,Retained
+8,RT,Tristan,Stubbs,SA,OVS,24,BAT,RHB,,1,1,DC,100000000,1201923.077,IPL Retaintion,Retained
+9,RT,Abishek,Porel,IND,CAB,30,WK,LHB,,0,0,DC,40000000,480769.2308,IPL Retaintion,Retained
+10,RT,Rashid,Khan,AFG,OVS,27,BWL,RHB,RIGHT ARM Leg Spin,1,1,GT,180000000,2163461.538,IPL Retaintion,Retained
+11,RT,Shubman,Gill,IND,PCA,26,BAT,RHB,RIGHT ARM Off Spin,1,0,GT,165000000,1983173.077,IPL Retaintion,Retained
+12,RT,Sai,Sudharsan,IND,TNCA,26,BAT,LHB,,1,0,GT,85000000,1021634.615,IPL Retaintion,Retained
+13,RT,Rahul,Tewatia,IND,RCA,34,ALL,LHB,RIGHT ARM Off Spin,0,0,GT,40000000,480769.2308,IPL Retaintion,Retained
+14,RT,Shahrukh,Khan,IND,TNCA,30,BAT,RHB,RIGHT ARM Medium,0,0,GT,40000000,480769.2308,IPL Retaintion,Retained
+15,RT,Rinku,Singh,IND,UPCA,28,BAT,LHB,,1,0,KKR,130000000,1562500,IPL Retaintion,Retained
+16,RT,Varun,Chakaravarthy,IND,TNCA,34,BWL,RHB,RIGHT ARM Off Spin,1,0,KKR,120000000,1442307.692,IPL Retaintion,Retained
+17,RT,Sunil,Narine,WI,OVS,36,ALL,LHB,RIGHT ARM Off Spin,1,1,KKR,120000000,1442307.692,IPL Retaintion,Retained
+18,RT,Andre,Russell,WI,OVS,36,ALL,RHB,RIGHT ARM Fast Medium,1,1,KKR,120000000,1442307.692,IPL Retaintion,Retained
+19,RT,Harshit,Rana,IND,DDCA,23,BWL,RHB,RIGHT ARM Fast Medium,0,0,KKR,40000000,480769.2308,IPL Retaintion,Retained
+20,RT,Ramandeep,Singh,IND,PCA,31,BAT,RHB,RIGHT ARM Medium,0,0,KKR,40000000,480769.2308,IPL Retaintion,Retained
+21,RT,Nicholas,Pooran,WI,OVS,30,WK,LHB,,1,1,LSG,210000000,2524038.462,IPL Retaintion,Retained
+22,RT,Ravi,Bishnoi,IND,RCA,25,BWL,RHB,RIGHT ARM Leg Spin,1,0,LSG,110000000,1322115.385,IPL Retaintion,Retained
+23,RT,Mayank,Yadav,IND,DDCA,30,BWL,RHB,RIGHT ARM Fast Medium,1,0,LSG,110000000,1322115.385,IPL Retaintion,Retained
+24,RT,Mohsin,Khan,IND,UPCA,24,BWL,LHB,LEFT ARM Fast Medium,0,0,LSG,40000000,480769.2308,IPL Retaintion,Retained
+25,RT,Ayush,Badoni,IND,UPCA,26,BAT,RHB,RIGHT ARM Off Spin,0,0,LSG,40000000,480769.2308,IPL Retaintion,Retained
+26,RT,Jasprit,Bumrah,IND,GUCA,32,BWL,RHB,RIGHT ARM Fast,1,0,MI,180000000,2163461.538,IPL Retaintion,Retained
+27,RT,Suryakumar,Yadav,IND,MCA,35,BAT,RHB,,1,0,MI,163500000,1965144.231,IPL Retaintion,Retained
+28,RT,Hardik,Pandya,IND,BCA,32,ALL,RHB,RIGHT ARM Fast Medium,1,0,MI,163500000,1965144.231,IPL Retaintion,Retained
+29,RT,Rohit,Sharma,IND,MCA,38,BAT,RHB,RIGHT ARM Off Spin,1,0,MI,163000000,1959134.615,IPL Retaintion,Retained
+30,RT,Tilak,Varma,IND,HYCA,22,BAT,LHB,RIGHT ARM Off Spin,1,0,MI,80000000,961538.4615,IPL Retaintion,Retained
+31,RT,Shashank,Singh,IND,MCA,33,BAT,RHB,RIGHT ARM Off Spin,0,0,PBKS,55000000,661057.6923,IPL Retaintion,Retained
+32,RT,Prabhsimran,Singh,IND,PCA,28,BAT,RHB,,0,0,PBKS,40000000,480769.2308,IPL Retaintion,Retained
+33,RT,Sanju,Samson,IND,KCA,31,WK,RHB,,1,0,RR,180000000,2163461.538,IPL Retaintion,Retained
+34,RT,Yashasvi,Jaiswal,IND,MACA,24,BAT,LHB,RIGHT ARM Leg Spin,1,0,RR,180000000,2163461.538,IPL Retaintion,Retained
+35,RT,Riyan,Parag,IND,ASCA,27,BAT,RHB,RIGHT ARM Off Spin,1,0,RR,140000000,1682692.308,IPL Retaintion,Retained
+36,RT,Dhruv,Jurel,IND,UPCA,26,WK,RHB,,1,0,RR,140000000,1682692.308,IPL Retaintion,Retained
+37,RT,Shimron,Hetmyer,WI,OVS,31,BAT,LHB,,1,1,RR,110000000,1322115.385,IPL Retaintion,Retained
+38,RT,Sandeep,Sharma,IND,UTCA,34,BWL,RHB,RIGHT ARM Fast Medium,1,0,RR,40000000,480769.2308,IPL Retaintion,Retained
+39,RT,Virat,Kohli,IND,DDCA,37,BAT,RHB,RIGHT ARM Fast Medium,1,0,RCB,210000000,2524038.462,IPL Retaintion,Retained
+40,RT,Rajat,Patidar,IND,MPCA,32,BAT,RHB,RIGHT ARM Off Spin,1,0,RCB,110000000,1322115.385,IPL Retaintion,Retained
+41,RT,Yash,Dayal,IND,UPCA,26,BWL,RHB,RIGHT ARM Fast Medium,0,0,RCB,50000000,600961.5385,IPL Retaintion,Retained
+42,RT,Heinrich,Klaasen,SA,OVS,35,BAT,RHB,,1,1,SRH,230000000,2764423.077,IPL Retaintion,Retained
+43,RT,Pat,Cummins,AUS,OVS,31,BWL,RHB,RIGHT ARM Fast,1,1,SRH,180000000,2163461.538,IPL Retaintion,Retained
+44,RT,Abhishek,Sharma,IND,PCA,30,ALL,LHB,LEFT ARM Orthodox,1,0,SRH,140000000,1682692.308,IPL Retaintion,Retained
+45,RT,Travis,Head,AUS,OVS,32,BAT,LHB,RIGHT ARM Off Spin,1,1,SRH,140000000,1682692.308,IPL Retaintion,Retained
+46,RT,Nitish,Kumar Reddy,IND,HYCA,27,ALL,RHB,RIGHT ARM Medium,1,0,SRH,60000000,721153.8462,IPL Retaintion,Retained
+47,M1,Jos,Buttler,ENG,OVS,34,WK,RHB,RIGHT ARM Off Spin,1,1,NONE,20000000,240384.62,Capped Overseas Wicket Keeper - Diamond,To Be Auctioned
+48,M1,Shreyas,Iyer,IND,MCA,30,BAT,RHB,RIGHT ARM Off Spin,1,0,NONE,20000000,240384.62,Capped Indian Batter - Diamond,To Be Auctioned
+49,M1,Rishabh,Pant,IND,DDCA,27,BAT,LHB,RIGHT ARM Off Spin,1,0,NONE,20000000,240384.62,Capped Indian Batter - Diamond,To Be Auctioned
+50,M1,Kagiso,Rabada,SA,OVS,29,BWL,RHB,RIGHT ARM Fast,1,1,NONE,20000000,240384.62,Capped Overseas Bowler - Diamond,To Be Auctioned
+51,M1,Arshdeep,Singh,IND,PCA,26,BWL,LHB,LEFT ARM Fast Medium,1,0,NONE,20000000,240384.62,Capped Indian Bowler - Diamond,To Be Auctioned
+52,M1,Mitchell,Starc,AUS,OVS,35,BWL,LHB,LEFT ARM Fast,1,1,NONE,20000000,240384.62,Capped Overseas Bowler - Diamond,To Be Auctioned
+53,M2,Yuzvendra,Chahal,IND,HCA,34,BWL,RHB,RIGHT ARM Leg Spin,1,0,NONE,20000000,240384.62,Capped Indian Bowler - Diamond,To Be Auctioned
+54,M2,Liam,Livingstone,ENG,OVS,31,ALL,RHB,RIGHT ARM Leg Spin,1,1,NONE,20000000,240384.62,Capped Overseas All Rounder - Diamond,To Be Auctioned
+55,M2,David,Miller,SA,OVS,35,BAT,LHB,,1,1,NONE,15000000,180288.46,Capped Overseas Batter - Diamond,To Be Auctioned
+56,M2,KL,Rahul,IND,KSCA,32,WK,RHB,,1,0,NONE,20000000,240384.62,Capped Indian Wicket Keeper - Diamond,To Be Auctioned
+57,M2,Mohammad,Shami,IND,CAB,34,BWL,RHB,RIGHT ARM Fast,1,0,NONE,20000000,240384.62,Capped Indian Bowler - Diamond,To Be Auctioned
+58,M2,Mohammad,Siraj,IND,HYCA,31,BWL,RHB,RIGHT ARM Fast,1,0,NONE,20000000,240384.62,Capped Indian Bowler - Diamond,To Be Auctioned
+59,BA1,Harry,Brook,ENG,OVS,26,BAT,RHB,RIGHT ARM Medium,1,1,NONE,20000000,240384.62,Capped Overseas Batter - Diamond,To Be Auctioned
+60,BA1,Devon,Conway,NZ,OVS,33,BAT,LHB,,1,1,NONE,20000000,240384.62,Capped Overseas Batter - Diamond,To Be Auctioned
+61,BA1,Jake,Fraser-Mcgurk,AUS,OVS,22,BAT,RHB,,1,1,NONE,20000000,240384.62,Capped Overseas Batter - Diamond,To Be Auctioned
+62,BA1,Aiden,Markram,SA,OVS,30,BAT,RHB,RIGHT ARM Off Spin,1,1,NONE,20000000,240384.62,Capped Overseas Batter - Diamond,To Be Auctioned
+63,BA1,Devdutt,Padikkal,IND,KSCA,24,BAT,LHB,,1,0,NONE,20000000,240384.62,Capped Indian Batter - Diamond,To Be Auctioned
+64,BA1,Rahul,Tripathi,IND,MACA,34,BAT,RHB,RIGHT ARM Medium,1,0,NONE,7500000,90144.23,Capped Indian Batter - Silver,To Be Auctioned
+65,BA1,David,Warner,AUS,OVS,38,BAT,LHB,,1,1,NONE,20000000,240384.62,Capped Overseas Batter - Diamond,To Be Auctioned
+66,AL1,Ravichandaran,Ashwin,IND,TNCA,38,ALL,RHB,RIGHT ARM Off Spin,1,0,NONE,20000000,240384.62,Capped Indian All Rounder - Diamond,To Be Auctioned
+67,AL1,Venkatesh,Iyer,IND,MPCA,30,ALL,LHB,RIGHT ARM Medium,1,0,NONE,20000000,240384.62,Capped Indian All Rounder - Diamond,To Be Auctioned
+68,AL1,Mitchell,Marsh,AUS,OVS,33,ALL,RHB,RIGHT ARM Fast,1,1,NONE,20000000,240384.62,Capped Overseas All Rounder - Diamond,To Be Auctioned
+69,AL1,Glenn,Maxwell,AUS,OVS,36,ALL,RHB,RIGHT ARM Off Spin,1,1,NONE,20000000,240384.62,Capped Overseas All Rounder - Diamond,To Be Auctioned
+70,AL1,Harshal,Patel,IND,HCA,34,ALL,RHB,RIGHT ARM Fast Medium,1,0,NONE,20000000,240384.62,Capped Indian All Rounder - Diamond,To Be Auctioned
+71,AL1,Rachin,Ravindra,NZ,OVS,25,ALL,LHB,LEFT ARM Orthodox,1,1,NONE,15000000,180288.46,Capped Overseas All Rounder - Diamond,To Be Auctioned
+72,AL1,Marcus,Stoinis,AUS,OVS,35,ALL,RHB,RIGHT ARM Fast,1,1,NONE,20000000,240384.62,Capped Overseas All Rounder - Diamond,To Be Auctioned
+73,WK1,Jonny,Bairstow,ENG,OVS,35,WK,RHB,RIGHT ARM Medium,1,1,NONE,20000000,240384.62,Capped Overseas Wicket Keeper - Diamond,To Be Auctioned
+74,WK1,Quinton,De Kock,SA,OVS,32,WK,LHB,,1,1,NONE,20000000,240384.62,Capped Overseas Wicket Keeper - Diamond,To Be Auctioned
+75,WK1,Rahmanullah,Gurbaz,AFG,OVS,23,WK,RHB,,1,1,NONE,20000000,240384.62,Capped Overseas Wicket Keeper - Diamond,To Be Auctioned
+76,WK1,Ishan,Kishan,IND,JSCA,26,WK,LHB,,1,0,NONE,20000000,240384.62,Capped Indian Wicket Keeper - Diamond,To Be Auctioned
+77,WK1,Phil,Salt,ENG,OVS,28,WK,RHB,,1,1,NONE,20000000,240384.62,Capped Overseas Wicket Keeper - Diamond,To Be Auctioned
+78,WK1,Jitesh,Sharma,IND,VCA,31,WK,RHB,,1,0,NONE,10000000,120192.31,Capped Indian Wicket Keeper - Gold,To Be Auctioned
+79,FA1,Syed Khaleel,Ahmed,IND,RCA,27,BWL,RHB,LEFT ARM Fast Medium,1,0,NONE,20000000,240384.62,Capped Indian Bowler - Diamond,To Be Auctioned
+80,FA1,Trent,Boult,NZ,OVS,35,BWL,RHB,LEFT ARM Fast Medium,1,1,NONE,20000000,240384.62,Capped Overseas Bowler - Diamond,To Be Auctioned
+81,FA1,Josh,Hazlewood,AUS,OVS,34,BWL,LHB,RIGHT ARM Fast Medium,1,1,NONE,20000000,240384.62,Capped Overseas Bowler - Diamond,To Be Auctioned
+82,FA1,Avesh,Khan,IND,MPCA,28,BWL,RHB,RIGHT ARM Fast,1,0,NONE,20000000,240384.62,Capped Indian Bowler - Diamond,To Be Auctioned
+83,FA1,Prasidh,Krishna,IND,KSCA,29,BWL,RHB,RIGHT ARM Fast,1,0,NONE,20000000,240384.62,Capped Indian Bowler - Diamond,To Be Auctioned
+84,FA1,T.,Natarajan,IND,TNCA,33,BWL,LHB,LEFT ARM Fast Medium,1,0,NONE,20000000,240384.62,Capped Indian Bowler - Diamond,To Be Auctioned
+85,FA1,Anrich,Nortje,SA,OVS,31,BWL,RHB,RIGHT ARM Fast,1,1,NONE,20000000,240384.62,Capped Overseas Bowler - Diamond,To Be Auctioned
+86,SP1,Noor,Ahmad,AFG,OVS,20,BWL,RHB,LEFT ARM Leg Spin,1,1,NONE,20000000,240384.62,Capped Overseas Bowler - Diamond,To Be Auctioned
+87,SP1,Rahul,Chahar,IND,RCA,25,BWL,RHB,RIGHT ARM Leg Spin,1,0,NONE,10000000,120192.31,Capped Indian Bowler - Gold,To Be Auctioned
+88,SP1,Wanindu,Hasaranga,SL,OVS,27,BWL,RHB,RIGHT ARM Leg Spin,1,1,NONE,20000000,240384.62,Capped Overseas Bowler - Diamond,To Be Auctioned
+89,SP1,Waqar,Salamkheil,AFG,OVS,23,BWL,RHB,LEFT ARM Leg Spin,1,1,NONE,7500000,90144.23,Capped Overseas Bowler - Silver,To Be Auctioned
+90,SP1,Maheesh,Theekshana,SL,OVS,24,BWL,RHB,RIGHT ARM Off Spin,1,1,NONE,20000000,240384.62,Capped Overseas Bowler - Diamond,To Be Auctioned
+91,SP1,Adam,Zampa,AUS,OVS,32,BWL,RHB,RIGHT ARM Leg Spin,1,1,NONE,20000000,240384.62,Capped Overseas Bowler - Diamond,To Be Auctioned
+92,UBA1,Yash,Dhull,IND,DDCA,22,BAT,RHB,,0,0,NONE,3000000,36057.69,Uncapped Indian Batter - Platinum,To Be Auctioned
+93,UBA1,Abhinav,Manohar,IND,KSCA,30,BAT,RHB,RIGHT ARM Leg Spin,0,0,NONE,3000000,36057.69,Uncapped Indian Batter - Platinum,To Be Auctioned
+94,UBA1,Karun,Nair,IND,VCA,33,BAT,RHB,RIGHT ARM Off Spin,0,0,NONE,3000000,36057.69,Uncapped Indian Batter - Platinum,To Be Auctioned
+95,UBA1,Angkrish,Raghuvanshi,IND,MCA,20,BAT,RHB,RIGHT ARM Off Spin,0,0,NONE,3000000,36057.69,Uncapped Indian Batter - Platinum,To Be Auctioned
+96,UBA1,Anmolpreet,Singh,IND,PCA,27,BAT,RHB,RIGHT ARM Off Spin,0,0,NONE,3000000,36057.69,Uncapped Indian Batter - Platinum,To Be Auctioned
+97,UBA1,Atharva,Taide,IND,VCA,24,BAT,LHB,LEFT ARM Orthodox,0,0,NONE,3000000,36057.69,Uncapped Indian Batter - Platinum,To Be Auctioned
+98,UBA1,Nehal,Wadhera,IND,PCA,24,BAT,LHB,RIGHT ARM Leg Spin,0,0,NONE,3000000,36057.69,Uncapped Indian Batter - Platinum,To Be Auctioned
+99,UAL1,Harpreet,Brar,IND,PCA,29,ALL,LHB,LEFT ARM Orthodox,0,0,NONE,3000000,36057.69,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+100,UAL1,Naman,Dhir,IND,PCA,25,ALL,RHB,RIGHT ARM Off Spin,0,0,NONE,3000000,36057.69,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+101,UAL1,Mahipal,Lomror,IND,RCA,25,ALL,LHB,LEFT ARM Orthodox,0,0,NONE,5000000,60096.15,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+102,UAL1,Sameer,Rizvi,IND,UPCA,21,ALL,RHB,RIGHT ARM Leg Spin,0,0,NONE,3000000,36057.69,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+103,UAL1,Abdul,Samad,IND,JKCA,23,ALL,RHB,RIGHT ARM Leg Spin,0,0,NONE,3000000,36057.69,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+104,UAL1,Vijay,Shankar,IND,TNCA,34,ALL,RHB,RIGHT ARM Medium,0,0,NONE,3000000,36057.69,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+105,UAL1,Ashutosh,Sharma,IND,RSPB,26,ALL,RHB,RIGHT ARM Medium,0,0,NONE,3000000,36057.69,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+106,UAL1,Nishant,Sindhu,IND,HCA,20,ALL,LHB,LEFT ARM Orthodox,0,0,NONE,3000000,36057.69,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+107,UAL1,Utkarsh,Singh,IND,JSCA,26,ALL,LHB,RIGHT ARM Off Spin,0,0,NONE,3000000,36057.69,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+108,UWK1,Aryan,Juyal,IND,UPCA,23,WK,RHB,RIGHT ARM Off Spin,0,0,NONE,3000000,36057.69,Uncapped Indian Wicket Keeper - Platinum,To Be Auctioned
+109,UWK1,Kumar,Kushagra,IND,JSCA,20,WK,RHB,,0,0,NONE,3000000,36057.69,Uncapped Indian Wicket Keeper - Platinum,To Be Auctioned
+110,UWK1,Robin,Minz,IND,JSCA,22,WK,LHB,RIGHT ARM Off Spin,0,0,NONE,3000000,36057.69,Uncapped Indian Wicket Keeper - Platinum,To Be Auctioned
+111,UWK1,Anuj,Rawat,IND,DDCA,25,WK,LHB,RIGHT ARM Leg Spin,0,0,NONE,3000000,36057.69,Uncapped Indian Wicket Keeper - Platinum,To Be Auctioned
+112,UWK1,Luvnith,Sisodia,IND,KSCA,25,WK,LHB,,0,0,NONE,3000000,36057.69,Uncapped Indian Wicket Keeper - Platinum,To Be Auctioned
+113,UWK1,Vishnu,Vinod,IND,KCA,31,WK,RHB,,0,0,NONE,3000000,36057.69,Uncapped Indian Wicket Keeper - Platinum,To Be Auctioned
+114,UWK1,Upendra Singh,Yadav,IND,RSPB,28,WK,RHB,,0,0,NONE,3000000,36057.69,Uncapped Indian Wicket Keeper - Platinum,To Be Auctioned
+115,UFA1,Vaibhav,Arora,IND,HPCA,27,BWL,RHB,RIGHT ARM Fast Medium,0,0,NONE,3000000,36057.69,Uncapped Indian Bowler - Platinum,To Be Auctioned
+116,UFA1,Rasikh,Dar,IND,JKCA,25,BWL,RHB,RIGHT ARM Fast Medium,0,0,NONE,3000000,36057.69,Uncapped Indian Bowler - Platinum,To Be Auctioned
+117,UFA1,Akash,Madhwal,IND,CAU,31,BWL,RHB,RIGHT ARM Fast,0,0,NONE,3000000,36057.69,Uncapped Indian Bowler - Platinum,To Be Auctioned
+118,UFA1,Mohit,Sharma,IND,HCA,36,BWL,RHB,RIGHT ARM Fast,0,0,NONE,5000000,60096.15,Uncapped Indian Bowler - Platinum,To Be Auctioned
+119,UFA1,Simarjeet,Singh,IND,DDCA,27,BWL,RHB,RIGHT ARM Fast,0,0,NONE,3000000,36057.69,Uncapped Indian Bowler - Platinum,To Be Auctioned
+120,UFA1,Yash,Thakur,IND,VCA,26,BWL,RHB,RIGHT ARM Fast Medium,0,0,NONE,3000000,36057.69,Uncapped Indian Bowler - Platinum,To Be Auctioned
+121,UFA1,Kartik,Tyagi,IND,UPCA,24,BWL,RHB,RIGHT ARM Fast,0,0,NONE,4000000,48076.92,Uncapped Indian Bowler - Platinum,To Be Auctioned
+122,UFA1,Vyshak,Vijaykumar,IND,KSCA,28,BWL,RHB,RIGHT ARM Fast Medium,0,0,NONE,3000000,36057.69,Uncapped Indian Bowler - Platinum,To Be Auctioned
+123,USP1,Piyush,Chawla,IND,UPCA,36,BWL,LHB,RIGHT ARM Leg Spin,0,0,NONE,5000000,60096.15,Uncapped Indian Bowler - Platinum,To Be Auctioned
+124,USP1,Shreyas,Gopal,IND,KSCA,31,BWL,RHB,RIGHT ARM Leg Spin,0,0,NONE,3000000,36057.69,Uncapped Indian Bowler - Platinum,To Be Auctioned
+125,USP1,Mayank,Markande,IND,PCA,27,BWL,RHB,RIGHT ARM Leg Spin,0,0,NONE,3000000,36057.69,Uncapped Indian Bowler - Platinum,To Be Auctioned
+126,USP1,Suyash,Sharma,IND,DDCA,21,BWL,RHB,RIGHT ARM Leg Spin,0,0,NONE,3000000,36057.69,Uncapped Indian Bowler - Platinum,To Be Auctioned
+127,USP1,Karn,Sharma,IND,RSPB,37,BWL,LHB,RIGHT ARM Leg Spin,0,0,NONE,5000000,60096.15,Uncapped Indian Bowler - Platinum,To Be Auctioned
+128,USP1,Kumar Kartikeya,Singh,IND,MPCA,27,BWL,RHB,LEFT ARM Orthodox,0,0,NONE,3000000,36057.69,Uncapped Indian Bowler - Platinum,To Be Auctioned
+129,USP1,Manav,Suthar,IND,RCA,22,BWL,LHB,LEFT ARM Orthodox,0,0,NONE,3000000,36057.69,Uncapped Indian Bowler - Platinum,To Be Auctioned
+130,BA2,Mayank,Agarawal,IND,KSCA,34,BAT,RHB,RIGHT ARM Off Spin,1,0,NONE,10000000,120192.31,Capped Indian Batter - Gold,To Be Auctioned
+131,BA2,Faf,Du Plessis,SA,OVS,40,BAT,RHB,,1,1,NONE,20000000,240384.62,Capped Overseas Batter - Diamond,To Be Auctioned
+132,BA2,Glenn,Phillips,NZ,OVS,28,BAT,RHB,RIGHT ARM Off Spin,1,1,NONE,20000000,240384.62,Capped Overseas Batter - Diamond,To Be Auctioned
+133,BA2,Rovman,Powell,WI,OVS,31,BAT,RHB,RIGHT ARM Fast Medium,1,1,NONE,15000000,180288.46,Capped Overseas Batter - Diamond,To Be Auctioned
+134,BA2,Ajinkya,Rahane,IND,MCA,36,BAT,RHB,,1,0,NONE,15000000,180288.46,Capped Indian Batter - Diamond,To Be Auctioned
+135,BA2,Prithvi,Shaw,IND,MCA,25,BAT,RHB,,1,0,NONE,7500000,90144.23,Capped Indian Batter - Silver,To Be Auctioned
+136,BA2,Kane,Williamson,NZ,OVS,34,BAT,RHB,,1,1,NONE,20000000,240384.62,Capped Overseas Batter - Diamond,To Be Auctioned
+137,AL2,Sam,Curran,ENG,OVS,26,ALL,LHB,LEFT ARM Fast Medium,1,1,NONE,20000000,240384.62,Capped Overseas All Rounder - Diamond,To Be Auctioned
+138,AL2,Marco,Jansen,SA,OVS,24,ALL,RHB,LEFT ARM Fast,1,1,NONE,12500000,150240.38,Capped Overseas All Rounder - Gold,To Be Auctioned
+139,AL2,Daryl,Mitchell,NZ,OVS,33,ALL,RHB,RIGHT ARM Medium,1,1,NONE,20000000,240384.62,Capped Overseas All Rounder - Diamond,To Be Auctioned
+140,AL2,Krunal,Pandya,IND,BCA,34,ALL,LHB,LEFT ARM Orthodox,1,0,NONE,20000000,240384.62,Capped Indian All Rounder - Diamond,To Be Auctioned
+141,AL2,Nitish,Rana,IND,UPCA,31,ALL,LHB,RIGHT ARM Off Spin,1,0,NONE,15000000,180288.46,Capped Indian All Rounder - Diamond,To Be Auctioned
+142,AL2,Washington,Sundar,IND,TNCA,25,ALL,LHB,RIGHT ARM Off Spin,1,0,NONE,20000000,240384.62,Capped Indian All Rounder - Diamond,To Be Auctioned
+143,AL2,Shardul,Thakur,IND,MCA,33,ALL,RHB,RIGHT ARM Fast Medium,1,0,NONE,20000000,240384.62,Capped Indian All Rounder - Diamond,To Be Auctioned
+144,WK2,K.S,Bharat,IND,ACA,31,WK,RHB,,1,0,NONE,7500000,90144.23,Capped Indian Wicket Keeper - Silver,To Be Auctioned
+145,WK2,Alex,Carey,AUS,OVS,33,WK,LHB,,1,1,NONE,10000000,120192.31,Capped Overseas Wicket Keeper - Gold,To Be Auctioned
+146,WK2,Donovan,Ferreira,SA,OVS,26,WK,RHB,RIGHT ARM Off Spin,1,1,NONE,7500000,90144.23,Capped Overseas Wicket Keeper - Silver,To Be Auctioned
+147,WK2,Shai,Hope,WI,OVS,31,WK,RHB,,1,1,NONE,12500000,150240.38,Capped Overseas Wicket Keeper - Gold,To Be Auctioned
+148,WK2,Josh,Inglis,AUS,OVS,30,WK,RHB,,1,1,NONE,20000000,240384.62,Capped Overseas Wicket Keeper - Diamond,To Be Auctioned
+149,WK2,Ryan,Rickelton,SA,OVS,28,WK,LHB,,1,1,NONE,10000000,120192.31,Capped Overseas Wicket Keeper - Gold,To Be Auctioned
+150,FA2,Deepak,Chahar,IND,RCA,32,BWL,RHB,RIGHT ARM Fast Medium,1,0,NONE,20000000,240384.62,Capped Indian Bowler - Diamond,To Be Auctioned
+151,FA2,Gerald,Coetzee,SA,OVS,24,BWL,RHB,RIGHT ARM Fast,1,1,NONE,12500000,150240.38,Capped Overseas Bowler - Gold,To Be Auctioned
+152,FA2,Akash,Deep,IND,CAB,28,BWL,RHB,RIGHT ARM Fast,1,0,NONE,10000000,120192.31,Capped Indian Bowler - Gold,To Be Auctioned
+153,FA2,Tushar,Deshpande,IND,MCA,29,BWL,LHB,RIGHT ARM Fast,1,0,NONE,10000000,120192.31,Capped Indian Bowler - Gold,To Be Auctioned
+154,FA2,Lockie,Ferguson,NZ,OVS,33,BWL,RHB,RIGHT ARM Fast,1,1,NONE,20000000,240384.62,Capped Overseas Bowler - Diamond,To Be Auctioned
+155,FA2,Bhuvneshwar,Kumar,IND,UPCA,35,BWL,RHB,RIGHT ARM Fast Medium,1,0,NONE,20000000,240384.62,Capped Indian Bowler - Diamond,To Be Auctioned
+156,FA2,Mukesh,Kumar,IND,CAB,31,BWL,RHB,RIGHT ARM Fast Medium,1,0,NONE,20000000,240384.62,Capped Indian Bowler - Diamond,To Be Auctioned
+157,SP2,Allah,Ghazanfar,AFG,OVS,19,BWL,RHB,RIGHT ARM Off Spin,1,1,NONE,7500000,90144.23,Capped Overseas Bowler - Silver,To Be Auctioned
+158,SP2,Akeal,Hosein,WI,OVS,31,BWL,LHB,LEFT ARM Orthodox,1,1,NONE,15000000,180288.46,Capped Overseas Bowler - Diamond,To Be Auctioned
+159,SP2,Keshav,Maharaj,SA,OVS,35,BWL,RHB,LEFT ARM Orthodox,1,1,NONE,7500000,90144.23,Capped Overseas Bowler - Silver,To Be Auctioned
+160,SP2,Mujeeb Ur,Rahman,AFG,OVS,24,BWL,RHB,RIGHT ARM Off Spin,1,1,NONE,20000000,240384.62,Capped Overseas Bowler - Diamond,To Be Auctioned
+161,SP2,Adil,Rashid,ENG,OVS,37,BWL,RHB,RIGHT ARM Leg Spin,1,1,NONE,20000000,240384.62,Capped Overseas Bowler - Diamond,To Be Auctioned
+162,SP2,Vijayakanth,Viyaskanth,SL,OVS,23,BWL,RHB,RIGHT ARM Leg Spin,1,1,NONE,7500000,90144.23,Capped Overseas Bowler - Silver,To Be Auctioned
+163,UBA2,Ricky,Bhui,IND,ACA,28,BAT,RHB,,0,0,NONE,3000000,36057.69,Uncapped Indian Batter - Platinum,To Be Auctioned
+164,UBA2,Swastik,Chhikara,IND,UPCA,20,BAT,RHB,RIGHT ARM Off Spin,0,0,NONE,3000000,36057.69,Uncapped Indian Batter - Platinum,To Be Auctioned
+165,UBA2,Aarya,Desai,IND,GUCA,22,BAT,LHB,RIGHT ARM Off Spin,0,0,NONE,3000000,36057.69,Uncapped Indian Batter - Platinum,To Be Auctioned
+166,UBA2,Shubham,Dubey,IND,VCA,30,BAT,LHB,RIGHT ARM Off Spin,0,0,NONE,3000000,36057.69,Uncapped Indian Batter - Platinum,To Be Auctioned
+167,UBA2,Madhav,Kaushik,IND,UPCA,27,BAT,RHB,RIGHT ARM Off Spin,0,0,NONE,3000000,36057.69,Uncapped Indian Batter - Platinum,To Be Auctioned
+168,UBA2,Pukhraj,Mann,IND,PCA,23,BAT,LHB,RIGHT ARM Off Spin,0,0,NONE,3000000,36057.69,Uncapped Indian Batter - Platinum,To Be Auctioned
+169,UBA2,Shaik,Rasheed,IND,ACA,20,BAT,RHB,RIGHT ARM Leg Spin,0,0,NONE,3000000,36057.69,Uncapped Indian Batter - Platinum,To Be Auctioned
+170,UBA2,Himmat,Singh,IND,DDCA,28,BAT,RHB,RIGHT ARM Off Spin,0,0,NONE,3000000,36057.69,Uncapped Indian Batter - Platinum,To Be Auctioned
+171,UAL2,Mayank,Dagar,IND,HPCA,28,ALL,RHB,LEFT ARM Orthodox,0,0,NONE,3000000,36057.69,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+172,UAL2,Anshul,Kamboj,IND,HCA,24,ALL,RHB,RIGHT ARM Fast Medium,0,0,NONE,3000000,36057.69,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+173,UAL2,Mohd. Arshad,Khan,IND,MPCA,27,ALL,LHB,LEFT ARM Fast Medium,0,0,NONE,3000000,36057.69,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+174,UAL2,Darshan,Nalkande,IND,VCA,26,ALL,RHB,RIGHT ARM Fast Medium,0,0,NONE,3000000,36057.69,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+175,UAL2,Suyash,Prabhudessai,IND,GCA,27,ALL,RHB,RIGHT ARM Fast,0,0,NONE,3000000,36057.69,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+176,UAL2,Anukul,Roy,IND,JSCA,26,ALL,LHB,LEFT ARM Orthodox,0,0,NONE,3000000,36057.69,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+177,UAL2,Swapnil,Singh,IND,CAU,34,ALL,RHB,LEFT ARM Orthodox,0,0,NONE,3000000,36057.69,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+178,UAL2,Sanvir,Singh,IND,PCA,28,ALL,RHB,RIGHT ARM Fast,0,0,NONE,3000000,36057.69,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+179,UWK2,Avanish,Aravelly,IND,HYCA,19,WK,LHB,RIGHT ARM Off Spin,0,0,NONE,3000000,36057.69,Uncapped Indian Wicket Keeper - Platinum,To Be Auctioned
+180,UWK2,Vansh,Bedi,IND,DDCA,22,WK,RHB,,0,0,NONE,3000000,36057.69,Uncapped Indian Wicket Keeper - Platinum,To Be Auctioned
+181,UWK2,Saurav,Chauhan,IND,GUCA,24,WK,LHB,RIGHT ARM Off Spin,0,0,NONE,3000000,36057.69,Uncapped Indian Wicket Keeper - Platinum,To Be Auctioned
+182,UWK2,Harvik,Desai,IND,SCA,25,WK,RHB,,0,0,NONE,3000000,36057.69,Uncapped Indian Wicket Keeper - Platinum,To Be Auctioned
+183,UWK2,Tom,Kohler-Cadmore,ENG,OVS,30,WK,RHB,,0,1,NONE,5000000,60096.15,Uncapped Overseas Wicket Keeper - Platinum,To Be Auctioned
+184,UWK2,Kunal,Rathore,IND,RCA,22,WK,LHB,RIGHT ARM Off Spin,0,0,NONE,3000000,36057.69,Uncapped Indian Wicket Keeper - Platinum,To Be Auctioned
+185,UWK2,B.R,Sharath,IND,KSCA,28,WK,RHB,,0,0,NONE,3000000,36057.69,Uncapped Indian Wicket Keeper - Platinum,To Be Auctioned
+186,UFA2,Gurnoor Singh,Brar,IND,PCA,24,BWL,LHB,RIGHT ARM Fast,0,0,NONE,3000000,36057.69,Uncapped Indian Bowler - Platinum,To Be Auctioned
+187,UFA2,Mukesh,Choudhary,IND,MACA,28,BWL,LHB,LEFT ARM Fast,0,0,NONE,3000000,36057.69,Uncapped Indian Bowler - Platinum,To Be Auctioned
+188,UFA2,Sakib,Hussain,IND,BICA,20,BWL,RHB,RIGHT ARM Fast Medium,0,0,NONE,3000000,36057.69,Uncapped Indian Bowler - Platinum,To Be Auctioned
+189,UFA2,Vidwath,Kaverappa,IND,KSCA,26,BWL,RHB,RIGHT ARM Fast Medium,0,0,NONE,3000000,36057.69,Uncapped Indian Bowler - Platinum,To Be Auctioned
+190,UFA2,Rajan,Kumar,IND,CAU,28,BWL,LHB,LEFT ARM Fast,0,0,NONE,3000000,36057.69,Uncapped Indian Bowler - Platinum,To Be Auctioned
+191,UFA2,Sushant,Mishra,IND,JSCA,24,BWL,LHB,LEFT ARM Fast,0,0,NONE,3000000,36057.69,Uncapped Indian Bowler - Platinum,To Be Auctioned
+192,UFA2,Arjun,Tendulkar,IND,GCA,25,BWL,LHB,LEFT ARM Fast Medium,0,0,NONE,3000000,36057.69,Uncapped Indian Bowler - Platinum,To Be Auctioned
+193,USP2,Zeeshan,Ansari,IND,UPCA,25,BWL,RHB,RIGHT ARM Leg Spin,0,0,NONE,3000000,36057.69,Uncapped Indian Bowler - Platinum,To Be Auctioned
+194,USP2,Prince,Choudhary,IND,DDCA,25,BWL,RHB,RIGHT ARM Leg Spin,0,0,NONE,3000000,36057.69,Uncapped Indian Bowler - Platinum,To Be Auctioned
+195,USP2,Himanshu,Sharma,IND,RCA,26,BWL,RHB,RIGHT ARM Leg Spin,0,0,NONE,3000000,36057.69,Uncapped Indian Bowler - Platinum,To Be Auctioned
+196,USP2,M.,Siddharth,IND,TNCA,26,BWL,RHB,LEFT ARM Orthodox,0,0,NONE,3000000,36057.69,Uncapped Indian Bowler - Platinum,To Be Auctioned
+197,USP2,Digvesh,Singh,IND,DDCA,25,BWL,RHB,RIGHT ARM Leg Spin,0,0,NONE,3000000,36057.69,Uncapped Indian Bowler - Platinum,To Be Auctioned
+198,USP2,Prashant,Solanki,IND,MACA,25,BWL,RHB,RIGHT ARM Leg Spin,0,0,NONE,3000000,36057.69,Uncapped Indian Bowler - Platinum,To Be Auctioned
+199,USP2,Jhathavedh,Subramanyan,IND,TNCA,25,BWL,RHB,RIGHT ARM Leg Spin,0,0,NONE,3000000,36057.69,Uncapped Indian Bowler - Platinum,To Be Auctioned
+200,BA3,Finn,Allen,NZ,OVS,25,BAT,RHB,,1,1,NONE,20000000,240384.62,Capped Overseas Batter - Diamond,To Be Auctioned
+201,BA3,Dewald,Brevis,SA,OVS,21,BAT,RHB,RIGHT ARM Leg Spin,1,1,NONE,7500000,90144.23,Capped Overseas Batter - Silver,To Be Auctioned
+202,BA3,Ben,Duckett,ENG,OVS,30,BAT,LHB,,1,1,NONE,20000000,240384.62,Capped Overseas Batter - Diamond,To Be Auctioned
+203,BA3,Manish,Pandey,IND,KSCA,35,BAT,RHB,,1,0,NONE,7500000,90144.23,Capped Indian Batter - Silver,To Be Auctioned
+204,BA3,Rilee,Rossouw,SA,OVS,35,BAT,LHB,,1,1,NONE,20000000,240384.62,Capped Overseas Batter - Diamond,To Be Auctioned
+205,BA3,Sherfane,Rutherford,WI,OVS,26,BAT,LHB,RIGHT ARM Fast Medium,1,1,NONE,15000000,180288.46,Capped Overseas Batter - Diamond,To Be Auctioned
+206,BA3,Ashton,Turner,AUS,OVS,32,BAT,RHB,RIGHT ARM Off Spin,1,1,NONE,10000000,120192.31,Capped Overseas Batter - Gold,To Be Auctioned
+207,BA3,James,Vince,ENG,OVS,34,BAT,RHB,,1,1,NONE,20000000,240384.62,Capped Overseas Batter - Diamond,To Be Auctioned
+208,AL3,Shahbaz,Ahamad,IND,CAB,30,ALL,LHB,LEFT ARM Orthodox,1,0,NONE,10000000,120192.31,Capped Indian All Rounder - Gold,To Be Auctioned
+209,AL3,Moeen,Ali,ENG,OVS,37,ALL,LHB,RIGHT ARM Off Spin,1,1,NONE,20000000,240384.62,Capped Overseas All Rounder - Diamond,To Be Auctioned
+210,AL3,Tim,David,AUS,OVS,29,ALL,RHB,RIGHT ARM Off Spin,1,1,NONE,20000000,240384.62,Capped Overseas All Rounder - Diamond,To Be Auctioned
+211,AL3,Deepak,Hooda,IND,RCA,29,ALL,RHB,RIGHT ARM Off Spin,1,0,NONE,7500000,90144.23,Capped Indian All Rounder - Silver,To Be Auctioned
+212,AL3,Will,Jacks,ENG,OVS,26,ALL,RHB,RIGHT ARM Off Spin,1,1,NONE,20000000,240384.62,Capped Overseas All Rounder - Diamond,To Be Auctioned
+213,AL3,Azmatullah,Omarzai,AFG,OVS,25,ALL,RHB,RIGHT ARM Fast Medium,1,1,NONE,15000000,180288.46,Capped Overseas All Rounder - Diamond,To Be Auctioned
+214,AL3,R.,Sai Kishore,IND,TNCA,28,ALL,LHB,LEFT ARM Leg Spin,1,0,NONE,7500000,90144.23,Capped Indian All Rounder - Silver,To Be Auctioned
+215,AL3,Romario,Shepherd,WI,OVS,30,ALL,RHB,RIGHT ARM Fast,1,1,NONE,15000000,180288.46,Capped Overseas All Rounder - Diamond,To Be Auctioned
+216,WK3,Tom,Banton,ENG,OVS,26,WK,RHB,RIGHT ARM Off Spin,1,1,NONE,20000000,240384.62,Capped Overseas Wicket Keeper - Diamond,To Be Auctioned
+217,WK3,Sam,Billings,ENG,OVS,33,WK,RHB,,1,1,NONE,15000000,180288.46,Capped Overseas Wicket Keeper - Diamond,To Be Auctioned
+218,WK3,Jordan,Cox,ENG,OVS,24,WK,RHB,,1,1,NONE,12500000,150240.38,Capped Overseas Wicket Keeper - Gold,To Be Auctioned
+219,WK3,Ben,McDermott,AUS,OVS,30,WK,RHB,RIGHT ARM Off Spin,1,1,NONE,7500000,90144.23,Capped Overseas Wicket Keeper - Silver,To Be Auctioned
+220,WK3,Kusal,Mendis,SL,OVS,30,WK,RHB,RIGHT ARM Leg Spin,1,1,NONE,7500000,90144.23,Capped Overseas Wicket Keeper - Silver,To Be Auctioned
+221,WK3,Kusal,Perera,SL,OVS,34,WK,LHB,,1,1,NONE,7500000,90144.23,Capped Overseas Wicket Keeper - Silver,To Be Auctioned
+222,WK3,Josh,Philippe,AUS,OVS,27,WK,RHB,,1,1,NONE,7500000,90144.23,Capped Overseas Wicket Keeper - Silver,To Be Auctioned
+223,WK3,Tim,Seifert,NZ,OVS,30,WK,RHB,,1,1,NONE,12500000,150240.38,Capped Overseas Wicket Keeper - Gold,To Be Auctioned
+224,FA3,Nandre,Burger,SA,OVS,29,BWL,LHB,LEFT ARM Fast,1,1,NONE,12500000,150240.38,Capped Overseas Bowler - Gold,To Be Auctioned
+225,FA3,Spencer,Johnson,AUS,OVS,29,BWL,LHB,LEFT ARM Fast,1,1,NONE,20000000,240384.62,Capped Overseas Bowler - Diamond,To Be Auctioned
+226,FA3,Umran,Malik,IND,JKCA,25,BWL,RHB,RIGHT ARM Fast,1,0,NONE,7500000,90144.23,Capped Indian Bowler - Silver,To Be Auctioned
+227,FA3,Mustafizur,Rahman,BAN,OVS,29,BWL,LHB,LEFT ARM Fast,1,1,NONE,20000000,240384.62,Capped Overseas Bowler - Diamond,To Be Auctioned
+228,FA3,Ishant,Sharma,IND,DDCA,36,BWL,RHB,RIGHT ARM Fast,1,0,NONE,7500000,90144.23,Capped Indian Bowler - Silver,To Be Auctioned
+229,FA3,Nuwan,Thushara,SL,OVS,30,BWL,RHB,RIGHT ARM Fast,1,1,NONE,7500000,90144.23,Capped Overseas Bowler - Silver,To Be Auctioned
+230,FA3,Naveen,Ul Haq,AFG,OVS,25,BWL,RHB,RIGHT ARM Medium,1,1,NONE,20000000,240384.62,Capped Overseas Bowler - Diamond,To Be Auctioned
+231,FA3,Jaydev,Unadkat,IND,SCA,33,BWL,RHB,LEFT ARM Fast Medium,1,0,NONE,10000000,120192.31,Capped Indian Bowler - Gold,To Be Auctioned
+232,FA3,Umesh,Yadav,IND,VCA,37,BWL,RHB,RIGHT ARM Fast Medium,1,0,NONE,20000000,240384.62,Capped Indian Bowler - Diamond,To Be Auctioned
+233,SP3,Rishad,Hossain,BAN,OVS,22,BWL,RHB,RIGHT ARM Leg Spin,1,1,NONE,7500000,90144.23,Capped Overseas Bowler - Silver,To Be Auctioned
+234,SP3,Zahir Khan,Pakten,AFG,OVS,26,BWL,LHB,LEFT ARM Leg Spin,1,1,NONE,7500000,90144.23,Capped Overseas Bowler - Silver,To Be Auctioned
+235,SP3,Nqabayomzi,Peter,SA,OVS,23,BWL,RHB,RIGHT ARM Leg Spin,1,1,NONE,7500000,90144.23,Capped Overseas Bowler - Silver,To Be Auctioned
+236,SP3,Tanveer,Sangha,AUS,OVS,23,BWL,RHB,RIGHT ARM Leg Spin,1,1,NONE,7500000,90144.23,Capped Overseas Bowler - Silver,To Be Auctioned
+237,SP3,Tabraiz,Shamsi,SA,OVS,35,BWL,RHB,LEFT ARM Leg Spin,1,1,NONE,20000000,240384.62,Capped Overseas Bowler - Diamond,To Be Auctioned
+238,SP3,Jeffery,Vandersay,SL,OVS,35,BWL,RHB,RIGHT ARM Leg Spin,1,1,NONE,7500000,90144.23,Capped Overseas Bowler - Silver,To Be Auctioned
+239,UBA3,Sachin,Baby,IND,KCA,36,BAT,LHB,RIGHT ARM Off Spin,0,0,NONE,3000000,36057.69,Uncapped Indian Batter - Platinum,To Be Auctioned
+240,UBA3,Priyam,Garg,IND,UPCA,24,BAT,RHB,,0,0,NONE,3000000,36057.69,Uncapped Indian Batter - Platinum,To Be Auctioned
+241,UBA3,Harnoor,Pannu,IND,PCA,22,BAT,LHB,RIGHT ARM Leg Spin,0,0,NONE,3000000,36057.69,Uncapped Indian Batter - Platinum,To Be Auctioned
+242,UBA3,Smaran,Ravichandran,IND,KSCA,21,BAT,LHB,RIGHT ARM Off Spin,0,0,NONE,3000000,36057.69,Uncapped Indian Batter - Platinum,To Be Auctioned
+243,UBA3,Shashwat,Rawat,IND,BCA,24,BAT,RHB,RIGHT ARM Medium,0,0,NONE,3000000,36057.69,Uncapped Indian Batter - Platinum,To Be Auctioned
+244,UBA3,Andre,Siddarth,IND,TNCA,18,BAT,RHB,,0,0,NONE,3000000,36057.69,Uncapped Indian Batter - Platinum,To Be Auctioned
+245,UBA3,Avneesh,Sudha,IND,CAU,23,BAT,RHB,RIGHT ARM Off Spin,0,0,NONE,5000000,60096.15,Uncapped Indian Batter - Platinum,To Be Auctioned
+246,UBA3,Apoorv,Wankhade,IND,VCA,33,BAT,RHB,,0,0,NONE,5000000,60096.15,Uncapped Indian Batter - Platinum,To Be Auctioned
+247,UAL3,Yudhvir,Charak,IND,JKCA,27,ALL,RHB,RIGHT ARM Fast Medium,0,0,NONE,3000000,36057.69,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+248,UAL3,Rishi,Dhawan,IND,HPCA,35,ALL,RHB,RIGHT ARM Fast Medium,0,0,NONE,3000000,36057.69,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+249,UAL3,Rajvardhan,Hangargekar,IND,MACA,22,ALL,RHB,RIGHT ARM Fast Medium,0,0,NONE,3000000,36057.69,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+250,UAL3,Tanush,Kotian,IND,MCA,26,ALL,RHB,RIGHT ARM Off Spin,0,0,NONE,3000000,36057.69,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+251,UAL3,Arshin,Kulkarni,IND,MACA,20,ALL,RHB,RIGHT ARM Fast Medium,0,0,NONE,3000000,36057.69,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+252,UAL3,Shams,Mulani,IND,MCA,28,ALL,LHB,LEFT ARM Orthodox,0,0,NONE,3000000,36057.69,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+253,UAL3,Shivam,Singh,IND,TNCA,29,ALL,RHB,RIGHT ARM Off Spin,0,0,NONE,3000000,36057.69,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+254,UAL3,Lalit,Yadav,IND,DDCA,28,ALL,RHB,RIGHT ARM Off Spin,0,0,NONE,3000000,36057.69,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+255,UWK3,Mohammed,Azharuddeen,IND,KCA,31,WK,RHB,,0,0,NONE,5000000,60096.15,Uncapped Indian Wicket Keeper - Platinum,To Be Auctioned
+256,UWK3,L.R,Chethan,IND,KSCA,24,WK,RHB,RIGHT ARM Off Spin,0,0,NONE,5000000,60096.15,Uncapped Indian Wicket Keeper - Platinum,To Be Auctioned
+257,UWK3,Aryaman Singh,Dhaliwal,IND,PCA,22,WK,RHB,LEFT ARM Orthodox,0,0,NONE,5000000,60096.15,Uncapped Indian Wicket Keeper - Platinum,To Be Auctioned
+258,UWK3,Urvil,Patel,IND,GUCA,26,WK,RHB,,0,0,NONE,5000000,60096.15,Uncapped Indian Wicket Keeper - Platinum,To Be Auctioned
+259,UWK3,Sanskar,Rawat,IND,CAU,19,WK,LHB,,0,0,NONE,5000000,60096.15,Uncapped Indian Wicket Keeper - Platinum,To Be Auctioned
+260,UWK3,Bipin,Saurabh,IND,BICA,25,WK,RHB,RIGHT ARM Off Spin,0,0,NONE,5000000,60096.15,Uncapped Indian Wicket Keeper - Platinum,To Be Auctioned
+261,UWK3,Tanay,Thyagarajann,IND,HYCA,29,WK,LHB,LEFT ARM Orthodox,0,0,NONE,5000000,60096.15,Uncapped Indian Wicket Keeper - Platinum,To Be Auctioned
+262,UFA3,Money,Grewal,IND,DDCA,24,BWL,RHB,RIGHT ARM Fast,0,0,NONE,5000000,60096.15,Uncapped Indian Bowler - Platinum,To Be Auctioned
+263,UFA3,Ashwani,Kumar,IND,PCA,23,BWL,LHB,LEFT ARM Fast,0,0,NONE,5000000,60096.15,Uncapped Indian Bowler - Platinum,To Be Auctioned
+264,UFA3,Ishan,Porel,IND,CAB,26,BWL,RHB,RIGHT ARM Fast Medium,0,0,NONE,5000000,60096.15,Uncapped Indian Bowler - Platinum,To Be Auctioned
+265,UFA3,Abhilash,Shetty,IND,KSCA,26,BWL,LHB,LEFT ARM Fast Medium,0,0,NONE,5000000,60096.15,Uncapped Indian Bowler - Platinum,To Be Auctioned
+266,UFA3,Akash,Singh,IND,BCA,22,BWL,RHB,LEFT ARM Fast,0,0,NONE,5000000,60096.15,Uncapped Indian Bowler - Platinum,To Be Auctioned
+267,UFA3,Gurjapneet,Singh,IND,TNCA,26,BWL,RHB,LEFT ARM Fast Medium,0,0,NONE,5000000,60096.15,Uncapped Indian Bowler - Platinum,To Be Auctioned
+268,UFA3,Basil,Thampi,IND,KCA,31,BWL,RHB,RIGHT ARM Fast,0,0,NONE,5000000,60096.15,Uncapped Indian Bowler - Platinum,To Be Auctioned
+269,USP3,Murugan,Ashwin,IND,JKCA,34,BWL,RHB,RIGHT ARM Leg Spin,0,0,NONE,5000000,60096.15,Uncapped Indian Bowler - Platinum,To Be Auctioned
+270,USP3,Shreyas,Chavan,IND,MACA,21,BWL,LHB,RIGHT ARM Leg Spin,0,0,NONE,5000000,60096.15,Uncapped Indian Bowler - Platinum,To Be Auctioned
+271,USP3,Chintal,Gandhi,IND,BCA,30,BWL,LHB,RIGHT ARM Leg Spin,0,0,NONE,5000000,60096.15,Uncapped Indian Bowler - Platinum,To Be Auctioned
+272,USP3,Raghav,Goyal,IND,HCA,23,BWL,LHB,LEFT ARM Leg Spin,0,0,NONE,5000000,60096.15,Uncapped Indian Bowler - Platinum,To Be Auctioned
+273,USP3,Jagadeesha,Suchith,IND,NCA,31,BWL,LHB,LEFT ARM Orthodox,0,0,NONE,5000000,60096.15,Uncapped Indian Bowler - Platinum,To Be Auctioned
+274,USP3,Roshan,Waghsare,IND,MACA,21,BWL,RHB,LEFT ARM Leg Spin,0,0,NONE,5000000,60096.15,Uncapped Indian Bowler - Platinum,To Be Auctioned
+275,USP3,Bailapudi,Yeswanth,IND,ACA,20,BWL,RHB,RIGHT ARM Leg Spin,0,0,NONE,5000000,60096.15,Uncapped Indian Bowler - Platinum,To Be Auctioned
+276,BA4,Sediqullah,Atal,AFG,OVS,23,BAT,LHB,,1,1,NONE,5000000,60096.15,Uncapped Overseas Batter - Platinum,To Be Auctioned
+277,BA4,Matthew,Breetzke,SA,OVS,26,BAT,RHB,,1,1,NONE,7500000,90144.23,Uncapped Overseas Batter - Silver,To Be Auctioned
+278,BA4,Mark,Chapman,NZ,OVS,30,BAT,LHB,LEFT ARM Orthodox,1,1,NONE,7500000,90144.23,Capped Overseas Batter - Silver,To Be Auctioned
+279,BA4,Brandon,King,WI,OVS,30,BAT,RHB,RIGHT ARM Off Spin,1,1,NONE,7500000,90144.23,Capped Overseas Batter - Silver,To Be Auctioned
+280,BA4,Evin,Lewis,WI,OVS,33,BAT,LHB,,1,1,NONE,7500000,90144.23,Capped Overseas Batter - Silver,To Be Auctioned
+281,BA4,Pathum,Nissanka,SL,OVS,26,BAT,RHB,RIGHT ARM Off Spin,1,1,NONE,7500000,90144.23,Capped Overseas Batter - Silver,To Be Auctioned
+282,BA4,Bhanuka,Rajapaksa,SL,OVS,33,BAT,LHB,,1,1,NONE,7500000,90144.23,Capped Overseas Batter - Silver,To Be Auctioned
+283,BA4,Steve,Smith,AUS,OVS,35,BAT,RHB,,1,1,NONE,10000000,120192.31,Capped Overseas Batter - Gold,To Be Auctioned
+284,AL4,Gus,Atkinson,ENG,OVS,27,ALL,RHB,RIGHT ARM Fast,1,1,NONE,20000000,240384.62,Capped Overseas All Rounder - Diamond,To Be Auctioned
+285,AL4,Tom,Curran,ENG,OVS,30,ALL,RHB,RIGHT ARM Fast Medium,1,1,NONE,20000000,240384.62,Capped Overseas All Rounder - Diamond,To Be Auctioned
+286,AL4,Krishnappa,Gowtham,IND,KSCA,36,ALL,RHB,RIGHT ARM Off Spin,1,0,NONE,10000000,120192.31,Capped Indian All Rounder - Gold,To Be Auctioned
+287,AL4,Mohammad,Nabi,AFG,OVS,40,ALL,RHB,RIGHT ARM Off Spin,1,1,NONE,15000000,180288.46,Capped Overseas All Rounder - Diamond,To Be Auctioned
+288,AL4,Gulbadin,Naib,AFG,OVS,33,ALL,RHB,RIGHT ARM Fast Medium,1,1,NONE,10000000,120192.31,Capped Overseas All Rounder - Gold,To Be Auctioned
+289,AL4,Sikandar,Raza,ZIM,OVS,38,ALL,RHB,RIGHT ARM Off Spin,1,1,NONE,12500000,150240.38,Capped Overseas All Rounder - Gold,To Be Auctioned
+290,AL4,Mitchell,Santner,NZ,OVS,33,ALL,LHB,LEFT ARM Orthodox,1,1,NONE,20000000,240384.62,Capped Overseas All Rounder - Diamond,To Be Auctioned
+291,AL4,Jayant,Yadav,IND,HCA,35,ALL,RHB,RIGHT ARM Off Spin,1,0,NONE,7500000,90144.23,Capped Indian All Rounder - Silver,To Be Auctioned
+292,WK4,Johnson,Charles,WI,OVS,36,WK,RHB,RIGHT ARM Off Spin,1,1,NONE,7500000,90144.23,Capped Overseas Wicket Keeper - Silver,To Be Auctioned
+293,WK4,Litton,Das,BAN,OVS,30,WK,RHB,RIGHT ARM Off Spin,1,1,NONE,7500000,90144.23,Capped Overseas Wicket Keeper - Silver,To Be Auctioned
+294,WK4,Andre,Fletcher,WI,OVS,37,WK,RHB,RIGHT ARM Leg Spin,1,1,NONE,7500000,90144.23,Capped Overseas Wicket Keeper - Silver,To Be Auctioned
+295,WK4,Tom,Latham,NZ,OVS,33,WK,LHB,,1,1,NONE,7500000,90144.23,Capped Overseas Wicket Keeper - Silver,To Be Auctioned
+296,WK4,Ollie,Pope,ENG,OVS,27,WK,RHB,,1,1,NONE,7500000,90144.23,Capped Overseas Wicket Keeper - Silver,To Be Auctioned
+297,WK4,Kyle,Verreynne,SA,OVS,27,WK,RHB,,1,1,NONE,7500000,90144.23,Capped Overseas Wicket Keeper - Silver,To Be Auctioned
+298,FA4,Fazalhaq,Farooqi,AFG,OVS,24,BWL,RHB,LEFT ARM Fast Medium,1,1,NONE,20000000,240384.62,Capped Overseas Bowler - Diamond,To Be Auctioned
+299,FA4,Richard,Gleeson,ENG,OVS,37,BWL,RHB,RIGHT ARM Fast,1,1,NONE,7500000,90144.23,Capped Overseas Bowler - Silver,To Be Auctioned
+300,FA4,Matt,Henry,NZ,OVS,33,BWL,RHB,RIGHT ARM Fast Medium,1,1,NONE,20000000,240384.62,Capped Overseas Bowler - Diamond,To Be Auctioned
+301,FA4,Alzarri,Joseph,WI,OVS,28,BWL,RHB,RIGHT ARM Fast,1,1,NONE,20000000,240384.62,Capped Overseas Bowler - Diamond,To Be Auctioned
+302,FA4,Kwena,Maphaka,SA,OVS,18,BWL,LHB,LEFT ARM Fast,1,1,NONE,7500000,90144.23,Capped Overseas Bowler - Silver,To Be Auctioned
+303,FA4,Kuldeep,Sen,IND,MPCA,28,BWL,RHB,RIGHT ARM Fast,1,0,NONE,7500000,90144.23,Capped Indian Bowler - Silver,To Be Auctioned
+304,FA4,Reece,Topley,ENG,OVS,31,BWL,RHB,LEFT ARM Fast,1,1,NONE,7500000,90144.23,Capped Overseas Bowler - Silver,To Be Auctioned
+305,FA4,Lizaad,Williams,SA,OVS,31,BWL,LHB,RIGHT ARM Fast,1,1,NONE,7500000,90144.23,Capped Overseas Bowler - Silver,To Be Auctioned
+306,FA4,Luke,Wood,ENG,OVS,29,BWL,LHB,LEFT ARM Fast,1,1,NONE,7500000,90144.23,Capped Overseas Bowler - Silver,To Be Auctioned
+307,UBA4,Sachin,Dhas,IND,MACA,20,BAT,RHB,RIGHT ARM Off Spin,0,0,NONE,5000000,60096.15,Uncapped Indian Batter - Platinum,To Be Auctioned
+308,UBA4,Leus,Du Plooy,ENG,OVS,30,BAT,LHB,,0,1,NONE,5000000,60096.15,Uncapped Overseas Batter - Platinum,To Be Auctioned
+309,UBA4,Ashwin,Hebbar,IND,ACA,29,BAT,RHB,RIGHT ARM Medium,0,0,NONE,5000000,60096.15,Uncapped Indian Batter - Platinum,To Be Auctioned
+310,UBA4,Rohan,Kunnummal,IND,KCA,26,BAT,RHB,RIGHT ARM Off Spin,0,0,NONE,5000000,60096.15,Uncapped Indian Batter - Platinum,To Be Auctioned
+311,UBA4,Ayush,Pandey,IND,CSCSCA,21,BAT,LHB,RIGHT ARM Off Spin,0,0,NONE,5000000,60096.15,Uncapped Indian Batter - Platinum,To Be Auctioned
+312,UBA4,Akshat,Raghuwanshi,IND,MPCA,21,BAT,RHB,,0,0,NONE,5000000,60096.15,Uncapped Indian Batter - Platinum,To Be Auctioned
+313,UBA4,Shoun,Roger,IND,KCA,22,BAT,RHB,RIGHT ARM Off Spin,0,0,NONE,5000000,60096.15,Uncapped Indian Batter - Platinum,To Be Auctioned
+314,UBA4,Virat,Singh,IND,JSCA,27,BAT,LHB,RIGHT ARM Off Spin,0,0,NONE,5000000,60096.15,Uncapped Indian Batter - Platinum,To Be Auctioned
+315,UAL4,Priyansh,Arya,IND,DDCA,23,ALL,LHB,RIGHT ARM Off Spin,0,0,NONE,5000000,60096.15,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+316,UAL4,Manoj,Bhandage,IND,KSCA,26,ALL,LHB,RIGHT ARM Fast Medium,0,0,NONE,3000000,36057.69,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+317,UAL4,Pravin,Dubey,IND,KSCA,31,ALL,RHB,RIGHT ARM Leg Spin,0,0,NONE,3000000,36057.69,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+318,UAL4,Ajay,Mandal,IND,CSCSCA,29,ALL,LHB,LEFT ARM Leg Spin,0,0,NONE,3000000,36057.69,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+319,UAL4,Prerak,Mankad,IND,SCA,30,ALL,RHB,RIGHT ARM Medium,0,0,NONE,3000000,36057.69,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+320,UAL4,Vipraj,Nigam,IND,UPCA,20,ALL,RHB,RIGHT ARM Leg Spin,0,0,NONE,5000000,60096.15,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+321,UAL4,Vicky,Ostwal,IND,MACA,22,ALL,RHB,LEFT ARM Orthodox,0,0,NONE,3000000,36057.69,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+322,UAL4,Shivalik,Sharma,IND,BCA,26,ALL,LHB,RIGHT ARM Leg Spin,0,0,NONE,3000000,36057.69,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+323,UWK4,Salil,Arora,IND,PCA,22,WK,RHB,,0,0,NONE,5000000,60096.15,Uncapped Indian Wicket Keeper - Platinum,To Be Auctioned
+324,UWK4,Dinesh,Bana,IND,HCA,20,WK,RHB,,0,0,NONE,5000000,60096.15,Uncapped Indian Wicket Keeper - Platinum,To Be Auctioned
+325,UWK4,Ajitesh,Guruswamy,IND,TNCA,22,WK,RHB,,0,0,NONE,5000000,60096.15,Uncapped Indian Wicket Keeper - Platinum,To Be Auctioned
+326,UWK4,Narayan,Jagadeesan,IND,TNCA,29,WK,RHB,,0,0,NONE,5000000,60096.15,Uncapped Indian Wicket Keeper - Platinum,To Be Auctioned
+327,UWK4,Shrijith,Krishnan,IND,KSCA,28,WK,LHB,,0,0,NONE,5000000,60096.15,Uncapped Indian Wicket Keeper - Platinum,To Be Auctioned
+328,UWK4,Michael,Pepper,ENG,OVS,26,WK,RHB,,0,1,NONE,5000000,60096.15,Uncapped Overseas Wicket Keeper - Platinum,To Be Auctioned
+329,UWK4,Vishnu,Solanki,IND,BCA,32,WK,RHB,,0,0,NONE,5000000,60096.15,Uncapped Indian Wicket Keeper - Platinum,To Be Auctioned
+330,UFA4,K.M,Asif,IND,KCA,31,BWL,RHB,RIGHT ARM Fast,0,0,NONE,5000000,60096.15,Uncapped Indian Bowler - Platinum,To Be Auctioned
+331,UFA4,Akhil,Chaudhary,IND,DDCA,22,BWL,RHB,RIGHT ARM Fast,0,0,NONE,5000000,60096.15,Uncapped Indian Bowler - Platinum,To Be Auctioned
+332,UFA4,Himanshu,Chauhan,IND,DDCA,22,BWL,RHB,RIGHT ARM Fast,0,0,NONE,5000000,60096.15,Uncapped Indian Bowler - Platinum,To Be Auctioned
+333,UFA4,Arpit,Guleria,IND,HPCA,27,BWL,RHB,RIGHT ARM Fast,0,0,NONE,5000000,60096.15,Uncapped Indian Bowler - Platinum,To Be Auctioned
+334,UFA4,Nishanth,Saranu,IND,HYCA,20,BWL,RHB,RIGHT ARM Fast Medium,0,0,NONE,5000000,60096.15,Uncapped Indian Bowler - Platinum,To Be Auctioned
+335,UFA4,Kuldip,Yadav,IND,DDCA,28,BWL,LHB,LEFT ARM Fast,0,0,NONE,5000000,60096.15,Uncapped Indian Bowler - Platinum,To Be Auctioned
+336,UFA4,Prithviraj,Yarra,IND,ACA,27,BWL,LHB,LEFT ARM Fast,0,0,NONE,5000000,60096.15,Uncapped Indian Bowler - Platinum,To Be Auctioned
+337,USP4,Shubham,Agrawal,IND,CSCSCA,31,BWL,RHB,RIGHT ARM Leg Spin,0,0,NONE,5000000,60096.15,Uncapped Indian Bowler - Platinum,To Be Auctioned
+338,USP4,Jass Inder,Baidwan,IND,PCA,28,BWL,RHB,RIGHT ARM Off Spin,0,0,NONE,5000000,60096.15,Uncapped Indian Bowler - Platinum,To Be Auctioned
+339,USP4,Jasmer,Dhankhar,IND,UPCA,26,BWL,RHB,RIGHT ARM Leg Spin,0,0,NONE,5000000,60096.15,Uncapped Indian Bowler - Platinum,To Be Auctioned
+340,USP4,Pulkit,Narang,IND,SSCB,30,BWL,RHB,RIGHT ARM Off Spin,0,0,NONE,5000000,60096.15,Uncapped Indian Bowler - Platinum,To Be Auctioned
+341,USP4,Saumy,Pandey,IND,MPCA,20,BWL,LHB,LEFT ARM Orthodox,0,0,NONE,5000000,60096.15,Uncapped Indian Bowler - Platinum,To Be Auctioned
+342,USP4,Mohit,Rathee,IND,SSCB,26,BWL,RHB,RIGHT ARM Leg Spin,0,0,NONE,5000000,60096.15,Uncapped Indian Bowler - Platinum,To Be Auctioned
+343,USP4,Himanshu,Singh,IND,MCA,21,BWL,RHB,RIGHT ARM Off Spin,0,0,NONE,5000000,60096.15,Uncapped Indian Bowler - Platinum,To Be Auctioned
+344,BA5,Towhid,Hridoy,BAN,OVS,24,BAT,RHB,RIGHT ARM Off Spin,1,1,NONE,10000000,120192.31,Capped Overseas Batter - Gold,To Be Auctioned
+345,BA5,Mikyle,Louis,WI,OVS,24,BAT,RHB,,1,1,NONE,12500000,150240.38,Capped Overseas Batter - Gold,To Be Auctioned
+346,BA5,Harry,Tector,IRL,OVS,25,BAT,RHB,RIGHT ARM Off Spin,1,1,NONE,10000000,120192.31,Capped Overseas Batter - Gold,To Be Auctioned
+347,BA5,Rassie,Van Der Dussen,SA,OVS,36,BAT,RHB,RIGHT ARM Off Spin,1,1,NONE,10000000,120192.31,Capped Overseas Batter - Gold,To Be Auctioned
+348,BA5,Will,Young,NZ,OVS,32,BAT,RHB,,1,1,NONE,10000000,120192.31,Capped Overseas Batter - Gold,To Be Auctioned
+349,BA5,Najibullah,Zadran,AFG,OVS,32,BAT,LHB,,1,1,NONE,10000000,120192.31,Capped Overseas Batter - Gold,To Be Auctioned
+350,BA5,Ibrahim,Zadran,AFG,OVS,24,BAT,RHB,RIGHT ARM Medium,1,1,NONE,10000000,120192.31,Capped Overseas Batter - Gold,To Be Auctioned
+351,AL5,Sean,Abbott,AUS,OVS,33,ALL,RHB,RIGHT ARM Fast Medium,1,1,NONE,10000000,120192.31,Capped Overseas All Rounder - Gold,To Be Auctioned
+352,AL5,Jacob,Bethell,ENG,OVS,21,ALL,LHB,LEFT ARM Orthodox,1,1,NONE,8000000,96153.85,Capped Overseas All Rounder - Silver,To Be Auctioned
+353,AL5,Brydon,Carse,ENG,OVS,29,ALL,RHB,RIGHT ARM Fast,1,1,NONE,8000000,96153.85,Capped Overseas All Rounder - Silver,To Be Auctioned
+354,AL5,Aaron,Hardie,AUS,OVS,26,ALL,RHB,RIGHT ARM Medium,1,1,NONE,10000000,120192.31,Capped Overseas All Rounder - Gold,To Be Auctioned
+355,AL5,Sarfaraz,Khan,IND,MCA,27,ALL,RHB,RIGHT ARM Leg Spin,1,0,NONE,10000000,120192.31,Capped Indian All Rounder - Gold,To Be Auctioned
+356,AL5,Kyle,Mayers,WI,OVS,32,ALL,LHB,RIGHT ARM Fast Medium,1,1,NONE,15000000,180288.46,Capped Overseas All Rounder - Diamond,To Be Auctioned
+357,AL5,Kamindu,Mendis,SL,OVS,26,ALL,LHB,LEFT ARM Orthodox,1,1,NONE,10000000,120192.31,Capped Overseas All Rounder - Gold,To Be Auctioned
+358,AL5,Matthew,Short,AUS,OVS,29,ALL,RHB,RIGHT ARM Off Spin,1,1,NONE,10000000,120192.31,Capped Overseas All Rounder - Gold,To Be Auctioned
+359,FA5,Jason,Behrendorff,AUS,OVS,34,BWL,RHB,LEFT ARM Fast,1,1,NONE,15000000,180288.46,Capped Overseas Bowler - Diamond,To Be Auctioned
+360,FA5,Dushmantha,Chameera,SL,OVS,33,BWL,RHB,RIGHT ARM Fast,1,1,NONE,7500000,90144.23,Capped Overseas Bowler - Silver,To Be Auctioned
+361,FA5,Nathan,Ellis,AUS,OVS,30,BWL,RHB,RIGHT ARM Fast Medium,1,1,NONE,12500000,150240.38,Capped Overseas Bowler - Gold,To Be Auctioned
+362,FA5,Shamar,Joseph,WI,OVS,25,BWL,LHB,RIGHT ARM Fast,1,1,NONE,7500000,90144.23,Capped Overseas Bowler - Silver,To Be Auctioned
+363,FA5,Josh,Little,IRL,OVS,25,BWL,RHB,LEFT ARM Fast Medium,1,1,NONE,7500000,90144.23,Capped Overseas Bowler - Silver,To Be Auctioned
+364,FA5,Shivam,Mavi,IND,UPCA,26,BWL,RHB,RIGHT ARM Fast Medium,1,0,NONE,7500000,90144.23,Capped Indian Bowler - Silver,To Be Auctioned
+365,FA5,Jhye,Richardson,AUS,OVS,28,BWL,RHB,RIGHT ARM Fast,1,1,NONE,15000000,180288.46,Capped Overseas Bowler - Diamond,To Be Auctioned
+366,FA5,Navdeep,Saini,IND,DDCA,32,BWL,RHB,RIGHT ARM Fast,1,0,NONE,7500000,90144.23,Capped Indian Bowler - Silver,To Be Auctioned
+367,UBA5,Tanmay,Agarwal,IND,HYCA,29,BAT,RHB,RIGHT ARM Leg Spin,0,0,NONE,5000000,60096.15,Uncapped Indian Batter - Platinum,To Be Auctioned
+368,UBA5,Amandeep,Khare,IND,CSCSCA,27,BAT,RHB,RIGHT ARM Off Spin,0,0,NONE,5000000,60096.15,Uncapped Indian Batter - Platinum,To Be Auctioned
+369,UBA5,Ayush,Mhatre,IND,MCA,17,BAT,RHB,RIGHT ARM Off Spin,0,0,NONE,5000000,60096.15,Uncapped Indian Batter - Platinum,To Be Auctioned
+370,UBA5,Salman,Nizar,IND,KCA,27,BAT,LHB,,0,0,NONE,5000000,60096.15,Uncapped Indian Batter - Platinum,To Be Auctioned
+371,UBA5,Aniket,Verma,IND,MPCA,23,BAT,RHB,,0,0,NONE,5000000,60096.15,Uncapped Indian Batter - Platinum,To Be Auctioned
+372,UBA5,Sumeet,Verma,IND,HPCA,34,BAT,RHB,RIGHT ARM Leg Spin,0,0,NONE,5000000,60096.15,Uncapped Indian Batter - Platinum,To Be Auctioned
+373,UBA5,Manan,Vohra,IND,UTCA,31,BAT,RHB,,0,0,NONE,5000000,60096.15,Uncapped Indian Batter - Platinum,To Be Auctioned
+374,UBA5,Samarth,Vyas,IND,SCA,29,BAT,RHB,RIGHT ARM Leg Spin,0,0,NONE,5000000,60096.15,Uncapped Indian Batter - Platinum,To Be Auctioned
+375,UAL5,Raj Angad,Bawa,IND,UTCA,22,ALL,LHB,RIGHT ARM Fast Medium,0,0,NONE,5000000,60096.15,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+376,UAL5,Emanjot,Chahal,IND,PCA,20,ALL,RHB,LEFT ARM Orthodox,0,0,NONE,5000000,60096.15,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+377,UAL5,Musheer,Khan,IND,MCA,20,ALL,RHB,LEFT ARM Orthodox,0,0,NONE,5000000,60096.15,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+378,UAL5,Manvanth,Kumar L,IND,KSCA,21,ALL,LHB,RIGHT ARM Fast Medium,0,0,NONE,5000000,60096.15,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+379,UAL5,Mayank,Rawat,IND,DDCA,25,ALL,RHB,RIGHT ARM Off Spin,0,0,NONE,5000000,60096.15,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+380,UAL5,Suryansh,Shedge,IND,MCA,22,ALL,RHB,RIGHT ARM Fast Medium,0,0,NONE,5000000,60096.15,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+381,UAL5,Hritik,Shokeen,IND,DDCA,24,ALL,RHB,RIGHT ARM Off Spin,0,0,NONE,5000000,60096.15,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+382,UAL5,Sonu,Yadav,IND,TNCA,25,ALL,RHB,RIGHT ARM Fast Medium,0,0,NONE,5000000,60096.15,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+383,UWK5,S. Rithik,Easwaran,IND,TNCA,23,WK,LHB,,0,0,NONE,5000000,60096.15,Uncapped Indian Wicket Keeper - Platinum,To Be Auctioned
+384,UWK5,Anmol,Malhotra,IND,PCA,29,WK,RHB,RIGHT ARM Off Spin,0,0,NONE,5000000,60096.15,Uncapped Indian Wicket Keeper - Platinum,To Be Auctioned
+385,UWK5,Pradosh,Paul,IND,TNCA,24,WK,LHB,RIGHT ARM Off Spin,0,0,NONE,5000000,60096.15,Uncapped Indian Wicket Keeper - Platinum,To Be Auctioned
+386,UWK5,Karteek,Sharma,IND,PCA,23,WK,LHB,RIGHT ARM Off Spin,0,0,NONE,5000000,60096.15,Uncapped Indian Wicket Keeper - Platinum,To Be Auctioned
+387,UWK5,Akash,Singh,IND,ARCA,29,WK,RHB,RIGHT ARM Leg Spin,0,0,NONE,5000000,60096.15,Uncapped Indian Wicket Keeper - Platinum,To Be Auctioned
+388,UWK5,Tejasvi,Singh,IND,DDCA,22,WK,RHB,RIGHT ARM Off Spin,0,0,NONE,5000000,60096.15,Uncapped Indian Wicket Keeper - Platinum,To Be Auctioned
+389,UWK5,Siddharth,Yadav,IND,UPCA,21,WK,LHB,RIGHT ARM Medium,0,0,NONE,5000000,60096.15,Uncapped Indian Wicket Keeper - Platinum,To Be Auctioned
+390,UFA5,Saurabh,Dubey,IND,VCA,27,BWL,RHB,LEFT ARM Fast Medium,0,0,NONE,5000000,60096.15,Uncapped Indian Bowler - Platinum,To Be Auctioned
+391,UFA5,Aaqib,Khan,IND,UPCA,21,BWL,RHB,RIGHT ARM Fast Medium,0,0,NONE,5000000,60096.15,Uncapped Indian Bowler - Platinum,To Be Auctioned
+392,UFA5,Kulwant,Khejroliya,IND,MPCA,33,BWL,LHB,LEFT ARM Fast Medium,0,0,NONE,5000000,60096.15,Uncapped Indian Bowler - Platinum,To Be Auctioned
+393,UFA5,Ankit Singh,Rajpoot,IND,UPCA,31,BWL,RHB,RIGHT ARM Fast Medium,0,0,NONE,5000000,60096.15,Uncapped Indian Bowler - Platinum,To Be Auctioned
+394,UFA5,Divesh,Sharma,IND,HPCA,23,BWL,RHB,RIGHT ARM Fast,0,0,NONE,5000000,60096.15,Uncapped Indian Bowler - Platinum,To Be Auctioned
+395,UFA5,Naman,Tiwari,IND,UPCA,19,BWL,LHB,LEFT ARM Fast,0,0,NONE,5000000,60096.15,Uncapped Indian Bowler - Platinum,To Be Auctioned
+396,UFA5,Prince,Yadav,IND,DDCA,23,BWL,RHB,RIGHT ARM Fast,0,0,NONE,5000000,60096.15,Uncapped Indian Bowler - Platinum,To Be Auctioned
+397,USP5,Kunal Singh,Chibb,IND,JKCA,28,BWL,RHB,RIGHT ARM Leg Spin,0,0,NONE,5000000,60096.15,Uncapped Indian Bowler - Platinum,To Be Auctioned
+398,USP5,Yuvraj,Chudasama,IND,SCA,29,BWL,LHB,RIGHT ARM Leg Spin,0,0,NONE,5000000,60096.15,Uncapped Indian Bowler - Platinum,To Be Auctioned
+399,USP5,Deepak,Devadiga,IND,KSCA,25,BWL,RHB,RIGHT ARM Leg Spin,0,0,NONE,5000000,60096.15,Uncapped Indian Bowler - Platinum,To Be Auctioned
+400,USP5,Ramesh,Prasad,IND,CAB,31,BWL,LHB,LEFT ARM Orthodox,0,0,NONE,5000000,60096.15,Uncapped Indian Bowler - Platinum,To Be Auctioned
+401,USP5,Shivam,Shukla,IND,MPCA,29,BWL,RHB,RIGHT ARM Leg Spin,0,0,NONE,5000000,60096.15,Uncapped Indian Bowler - Platinum,To Be Auctioned
+402,USP5,Himanshu,Singh,IND,BICA,27,BWL,RHB,RIGHT ARM Leg Spin,0,0,NONE,5000000,60096.15,Uncapped Indian Bowler - Platinum,To Be Auctioned
+403,USP5,Tejpreet,Singh,IND,PCA,24,BWL,RHB,RIGHT ARM Leg Spin,0,0,NONE,5000000,60096.15,Uncapped Indian Bowler - Platinum,To Be Auctioned
+404,AL6,Qais,Ahmad,AFG,OVS,24,ALL,RHB,RIGHT ARM Leg Spin,1,1,NONE,5000000,60096.15,Capped Overseas All Rounder - Platinum,To Be Auctioned
+405,AL6,Charith,Asalanka,SL,OVS,27,ALL,LHB,RIGHT ARM Off Spin,1,1,NONE,10000000,120192.31,Capped Overseas All Rounder - Gold,To Be Auctioned
+406,AL6,Michael,Bracewell,NZ,OVS,34,ALL,LHB,RIGHT ARM Off Spin,1,1,NONE,10000000,120192.31,Capped Overseas All Rounder - Gold,To Be Auctioned
+407,AL6,Gudakesh,Motie,WI,OVS,30,ALL,LHB,LEFT ARM Orthodox,1,1,NONE,8000000,96153.85,Capped Overseas All Rounder - Silver,To Be Auctioned
+408,AL6,Daniel,Mousley,ENG,OVS,23,ALL,LHB,RIGHT ARM Off Spin,1,1,NONE,5000000,60096.15,Capped Overseas All Rounder - Platinum,To Be Auctioned
+409,AL6,Jamie,Overton,ENG,OVS,41,ALL,RHB,RIGHT ARM Fast,1,1,NONE,8000000,96153.85,Capped Overseas All Rounder - Silver,To Be Auctioned
+410,AL6,Dunith,Wellalage,SL,OVS,22,ALL,LHB,LEFT ARM Orthodox,1,1,NONE,8000000,96153.85,Capped Overseas All Rounder - Silver,To Be Auctioned
+411,FA6,Ottneil,Baartman,SA,OVS,32,BWL,RHB,RIGHT ARM Fast Medium,1,1,NONE,5000000,60096.15,Capped Overseas Bowler - Platinum,To Be Auctioned
+412,FA6,Xavier,Bartlett,AUS,OVS,26,BWL,RHB,RIGHT ARM Fast Medium,1,1,NONE,5000000,60096.15,Capped Overseas Bowler - Platinum,To Be Auctioned
+413,FA6,Dilshan,Madushanka,SL,OVS,24,BWL,RHB,LEFT ARM Fast,1,1,NONE,7500000,90144.23,Capped Overseas Bowler - Silver,To Be Auctioned
+414,FA6,Adam,Milne,NZ,OVS,32,BWL,RHB,RIGHT ARM Fast,1,1,NONE,10000000,120192.31,Capped Overseas Bowler - Gold,To Be Auctioned
+415,FA6,Lungisani,Ngidi,SA,OVS,29,BWL,RHB,RIGHT ARM Fast Medium,1,1,NONE,10000000,120192.31,Capped Overseas Bowler - Gold,To Be Auctioned
+416,FA6,William,O'Rourke,NZ,OVS,23,BWL,RHB,RIGHT ARM Fast,1,1,NONE,8000000,96153.85,Capped Overseas Bowler - Silver,To Be Auctioned
+417,FA6,Chetan,Sakariya,IND,SCA,27,BWL,LHB,LEFT ARM Medium,1,0,NONE,7500000,90144.23,Capped Indian Bowler - Silver,To Be Auctioned
+418,FA6,Sandeep,Warrier,IND,TNCA,34,BWL,RHB,RIGHT ARM Fast Medium,1,0,NONE,8000000,96153.85,Uncapped Indian Bowler - Silver,To Be Auctioned
+419,UBA6,Musaif,Ajaz,IND,JKCA,22,BAT,RHB,LEFT ARM Orthodox,0,0,NONE,5000000,60096.15,Uncapped Indian Batter - Platinum,To Be Auctioned
+420,UBA6,Agni,Chopra,IND,CAM,26,BAT,LHB,,0,0,NONE,5000000,60096.15,Uncapped Indian Batter - Platinum,To Be Auctioned
+421,UBA6,Abhimanyu,Easwaran,IND,CAB,29,BAT,RHB,RIGHT ARM Leg Spin,0,0,NONE,5000000,60096.15,Uncapped Indian Batter - Platinum,To Be Auctioned
+422,UBA6,Sudip,Gharami,IND,CAB,26,BAT,RHB,,0,0,NONE,5000000,60096.15,Uncapped Indian Batter - Platinum,To Be Auctioned
+423,UBA6,Shubham,Khajuria,IND,JKCA,29,BAT,RHB,RIGHT ARM Off Spin,0,0,NONE,5000000,60096.15,Uncapped Indian Batter - Platinum,To Be Auctioned
+424,UBA6,Akhil,Rawat,IND,CAU,24,BAT,RHB,,0,0,NONE,5000000,60096.15,Uncapped Indian Batter - Platinum,To Be Auctioned
+425,UBA6,Prateek,Yadav,IND,CSCSCA,26,BAT,LHB,RIGHT ARM Off Spin,0,0,NONE,5000000,60096.15,Uncapped Indian Batter - Platinum,To Be Auctioned
+426,UAL6,Abdul,Bazith,IND,KCA,26,ALL,RHB,RIGHT ARM Off Spin,0,0,NONE,5000000,60096.15,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+427,UAL6,K.C,Cariappa,IND,CAM,30,ALL,RHB,RIGHT ARM Leg Spin,0,0,NONE,5000000,60096.15,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+428,UAL6,Yuvraj,Chaudhary,IND,CAU,23,ALL,LHB,LEFT ARM Orthodox,0,0,NONE,5000000,60096.15,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+429,UAL6,Aman,Khan,IND,CAP,28,ALL,RHB,RIGHT ARM Fast Medium,0,0,NONE,5000000,60096.15,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+430,UAL6,Sumit,Kumar,IND,HCA,29,ALL,RHB,RIGHT ARM Fast Medium,0,0,NONE,5000000,60096.15,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+431,UAL6,Kamlesh,Nagarkoti,IND,RCA,25,ALL,RHB,RIGHT ARM Fast,0,0,NONE,5000000,60096.15,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+432,UAL6,Hardik,Raj,IND,KSCA,19,ALL,LHB,LEFT ARM Orthodox,0,0,NONE,5000000,60096.15,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+433,UAL6,Harsh,Tyagi,IND,DDCA,25,ALL,LHB,LEFT ARM Orthodox,0,0,NONE,5000000,60096.15,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+434,UWK6,M.,Ajnas,IND,KCA,27,WK,RHB,RIGHT ARM Off Spin,0,0,NONE,5000000,60096.15,Uncapped Indian Wicket Keeper - Platinum,To Be Auctioned
+435,UWK6,Unmukt,Chand,USA,OVS,32,WK,RHB,,1,1,NONE,5000000,60096.15,Capped Overseas Wicket Keeper - Platinum,To Be Auctioned
+436,UWK6,Tejasvi,Dahiya,IND,DDCA,22,WK,RHB,,0,0,NONE,5000000,60096.15,Uncapped Indian Wicket Keeper - Platinum,To Be Auctioned
+437,UWK6,Sumit,Ghadigaonkar,IND,ASCA,32,WK,RHB,,0,0,NONE,5000000,60096.15,Uncapped Indian Wicket Keeper - Platinum,To Be Auctioned
+438,UWK6,Baba,Indrajith,IND,TNCA,30,WK,RHB,RIGHT ARM Off Spin,0,0,NONE,5000000,60096.15,Uncapped Indian Wicket Keeper - Platinum,To Be Auctioned
+439,UWK6,Muhammed,Khan,IND,TNCA,24,WK,RHB,RIGHT ARM Off Spin,0,0,NONE,5000000,60096.15,Uncapped Indian Wicket Keeper - Platinum,To Be Auctioned
+440,UWK6,Bhagmender,Lather,IND,UTCA,27,WK,LHB,LEFT ARM Orthodox,0,0,NONE,5000000,60096.15,Uncapped Indian Wicket Keeper - Platinum,To Be Auctioned
+441,UFA6,Baltej,Dhanda,IND,PCA,34,BWL,RHB,RIGHT ARM Fast Medium,0,0,NONE,5000000,60096.15,Uncapped Indian Bowler - Platinum,To Be Auctioned
+442,UFA6,Ali,Khan,USA,OVS,34,BWL,RHB,RIGHT ARM Fast,1,1,NONE,5000000,60096.15,Capped Overseas Bowler - Platinum,To Be Auctioned
+443,UFA6,Ravi,Kumar,IND,CAB,21,BWL,LHB,LEFT ARM Fast Medium,0,0,NONE,5000000,60096.15,Uncapped Indian Bowler - Platinum,To Be Auctioned
+444,UFA6,Vineet,Panwar,IND,UPCA,26,BWL,RHB,RIGHT ARM Fast,0,0,NONE,5000000,60096.15,Uncapped Indian Bowler - Platinum,To Be Auctioned
+445,UFA6,Vidyadhar,Patil,IND,KSCA,24,BWL,RHB,RIGHT ARM Fast Medium,0,0,NONE,5000000,60096.15,Uncapped Indian Bowler - Platinum,To Be Auctioned
+446,UFA6,Aradhya,Shukla,IND,PCA,20,BWL,RHB,RIGHT ARM Fast,0,0,NONE,5000000,60096.15,Uncapped Indian Bowler - Platinum,To Be Auctioned
+447,UFA6,Abhinandan,Singh,IND,UPCA,28,BWL,RHB,RIGHT ARM Fast Medium,0,0,NONE,5000000,60096.15,Uncapped Indian Bowler - Platinum,To Be Auctioned
+448,AL7,Cooper,Connolly,AUS,OVS,21,ALL,LHB,LEFT ARM Orthodox,1,1,NONE,8000000,96153.85,Capped Overseas All Rounder - Silver,To Be Auctioned
+449,AL7,Dushan,Hemantha,SL,OVS,30,ALL,RHB,RIGHT ARM Leg Spin,1,1,NONE,8000000,96153.85,Capped Overseas All Rounder - Silver,To Be Auctioned
+450,AL7,Jason,Holder,WI,OVS,33,ALL,RHB,RIGHT ARM Fast,1,1,NONE,10000000,120192.31,Capped Overseas All Rounder - Gold,To Be Auctioned
+451,AL7,Karim,Janat,AFG,OVS,26,ALL,RHB,RIGHT ARM Fast Medium,1,1,NONE,8000000,96153.85,Capped Overseas All Rounder - Silver,To Be Auctioned
+452,AL7,Jimmy,Neesham,NZ,OVS,34,ALL,LHB,RIGHT ARM Fast Medium,1,1,NONE,8000000,96153.85,Capped Overseas All Rounder - Silver,To Be Auctioned
+453,AL7,Daniel,Sams,AUS,OVS,32,ALL,RHB,LEFT ARM Fast,1,1,NONE,8000000,96153.85,Capped Overseas All Rounder - Silver,To Be Auctioned
+454,AL7,William,Sutherland,AUS,OVS,25,ALL,RHB,RIGHT ARM Fast,1,1,NONE,8000000,96153.85,Capped Overseas All Rounder - Silver,To Be Auctioned
+455,FA7,Taskin,Ahmed,BAN,OVS,30,BWL,LHB,RIGHT ARM Fast,1,1,NONE,8000000,96153.85,Capped Overseas Bowler - Silver,To Be Auctioned
+456,FA7,Ben,Dwarshuis,AUS,OVS,30,BWL,LHB,LEFT ARM Fast,1,1,NONE,8000000,96153.85,Capped Overseas Bowler - Silver,To Be Auctioned
+457,FA7,Obed,McCoy,WI,OVS,28,BWL,RHB,LEFT ARM Fast,1,1,NONE,8000000,96153.85,Capped Overseas Bowler - Silver,To Be Auctioned
+458,FA7,Riley,Meredith,AUS,OVS,28,BWL,RHB,RIGHT ARM Fast,1,1,NONE,8000000,96153.85,Capped Overseas Bowler - Silver,To Be Auctioned
+459,FA7,Lance,Morris,AUS,OVS,27,BWL,RHB,RIGHT ARM Fast,1,1,NONE,8000000,96153.85,Capped Overseas Bowler - Silver,To Be Auctioned
+460,FA7,Olly,Stone,ENG,OVS,31,BWL,RHB,RIGHT ARM Fast,1,1,NONE,8000000,96153.85,Capped Overseas Bowler - Silver,To Be Auctioned
+461,FA7,Daniel,Worrall,ENG,OVS,33,BWL,RHB,RIGHT ARM Fast Medium,1,1,NONE,8000000,96153.85,Capped Overseas Bowler - Silver,To Be Auctioned
+462,UBA7,Pyla,Avinash,IND,ACA,24,BAT,RHB,RIGHT ARM Fast Medium,0,0,NONE,3000000,36057.69,Uncapped Indian Batter - Platinum,To Be Auctioned
+463,UBA7,Kiran,Chormale,IND,MACA,19,BAT,RHB,RIGHT ARM Off Spin,0,0,NONE,3000000,36057.69,Uncapped Indian Batter - Platinum,To Be Auctioned
+464,UBA7,Ashish,Dahariya,IND,CSCSCA,20,BAT,RHB,RIGHT ARM Leg Spin,0,0,NONE,3000000,36057.69,Uncapped Indian Batter - Platinum,To Be Auctioned
+465,UBA7,Tushar,Raheja,IND,TNCA,24,BAT,LHB,,0,0,NONE,3000000,36057.69,Uncapped Indian Batter - Platinum,To Be Auctioned
+466,UBA7,Sarthak,Ranjan,IND,DDCA,28,BAT,RHB,RIGHT ARM Off Spin,0,0,NONE,3000000,36057.69,Uncapped Indian Batter - Platinum,To Be Auctioned
+467,UBA7,Abhijeet,Tomar,IND,RCA,30,BAT,RHB,RIGHT ARM Off Spin,0,0,NONE,3000000,36057.69,Uncapped Indian Batter - Platinum,To Be Auctioned
+468,UAL7,Krish,Bhagat,IND,PCA,20,ALL,RHB,RIGHT ARM Fast Medium,0,0,NONE,3000000,36057.69,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+469,UAL7,Sohraab,Dhaliwal,IND,PCA,33,ALL,RHB,LEFT ARM Orthodox,0,0,NONE,3000000,36057.69,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+470,UAL7,Harsh,Dubey,IND,VCA,22,ALL,LHB,LEFT ARM Orthodox,0,0,NONE,3000000,36057.69,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+471,UAL7,Ramakrishna,Ghosh,IND,MACA,27,ALL,RHB,RIGHT ARM Fast,0,0,NONE,3000000,36057.69,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+472,UAL7,Raj,Limbani,IND,BCA,20,ALL,LHB,RIGHT ARM Fast Medium,0,0,NONE,3000000,36057.69,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+473,UAL7,Ninad,Rathva,IND,BCA,26,ALL,LHB,LEFT ARM Orthodox,0,0,NONE,3000000,36057.69,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+474,UAL7,Vivrant,Sharma,IND,JKCA,25,ALL,LHB,RIGHT ARM Leg Spin,0,0,NONE,3000000,36057.69,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+475,UAL7,Shiva,Singh,IND,UPCA,25,ALL,RHB,LEFT ARM Orthodox,0,0,NONE,3000000,36057.69,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+476,UFA7,Sayed Irfan,Aftab,IND,CAB,21,BWL,RHB,RIGHT ARM Fast,0,0,NONE,3000000,36057.69,Uncapped Indian Bowler - Platinum,To Be Auctioned
+477,UFA7,Anirudh,Chowdhary,IND,DDCA,25,BWL,LHB,RIGHT ARM Fast Medium,0,0,NONE,3000000,36057.69,Uncapped Indian Bowler - Platinum,To Be Auctioned
+478,UFA7,Anshuman,Hooda,IND,DDCA,24,BWL,RHB,RIGHT ARM Fast,0,0,NONE,3000000,36057.69,Uncapped Indian Bowler - Platinum,To Be Auctioned
+479,UFA7,Siddharth,Kaul,IND,PCA,34,BWL,RHB,RIGHT ARM Fast Medium,0,0,NONE,3000000,36057.69,Uncapped Indian Bowler - Platinum,To Be Auctioned
+480,UFA7,Prashant Sai,Painkra,IND,CSCSCA,22,BWL,RHB,RIGHT ARM Fast Medium,0,0,NONE,3000000,36057.69,Uncapped Indian Bowler - Platinum,To Be Auctioned
+481,UFA7,Venkata Satyanarayana,Penmetsa,IND,ACA,25,BWL,RHB,RIGHT ARM Fast Medium,0,0,NONE,3000000,36057.69,Uncapped Indian Bowler - Platinum,To Be Auctioned
+482,UFA7,Yeddala,Reddy,IND,ACA,25,BWL,RHB,RIGHT ARM Fast,0,0,NONE,3000000,36057.69,Uncapped Indian Bowler - Platinum,To Be Auctioned
+483,AL8,Zak,Foulkes,NZ,OVS,22,ALL,RHB,RIGHT ARM Medium,1,1,NONE,7500000,90144.23,Capped Overseas All Rounder - Silver,To Be Auctioned
+484,AL8,Chris,Green,AUS,OVS,31,ALL,RHB,RIGHT ARM Off Spin,1,1,NONE,7500000,90144.23,Capped Overseas All Rounder - Silver,To Be Auctioned
+485,AL8,Shakib Al,Hasan,BAN,OVS,38,ALL,LHB,LEFT ARM Orthodox,1,1,NONE,10000000,120192.31,Capped Overseas All Rounder - Gold,To Be Auctioned
+486,AL8,Mehidy Hasan,Miraz,BAN,OVS,27,ALL,RHB,RIGHT ARM Off Spin,1,1,NONE,8000000,96153.85,Capped Overseas All Rounder - Silver,To Be Auctioned
+487,AL8,Wiaan,Mulder,SA,OVS,27,ALL,RHB,RIGHT ARM Medium,1,1,NONE,8000000,96153.85,Capped Overseas All Rounder - Silver,To Be Auctioned
+488,AL8,Dwaine,Pretorius,SA,OVS,36,ALL,RHB,RIGHT ARM Fast Medium,1,1,NONE,8000000,96153.85,Capped Overseas All Rounder - Silver,To Be Auctioned
+489,AL8,Dasun,Shanaka,SL,OVS,33,ALL,RHB,RIGHT ARM Fast,1,1,NONE,8000000,96153.85,Capped Overseas All Rounder - Silver,To Be Auctioned
+490,FA8,Shoriful,Islam,BAN,OVS,23,BWL,LHB,LEFT ARM Fast Medium,1,1,NONE,8000000,96153.85,Capped Overseas Bowler - Silver,To Be Auctioned
+491,FA8,Blessing,Muzarabani,ZIM,OVS,28,BWL,RHB,RIGHT ARM Fast,1,1,NONE,8000000,96153.85,Capped Overseas Bowler - Silver,To Be Auctioned
+492,FA8,Matthew,Potts,ENG,OVS,26,BWL,RHB,RIGHT ARM Fast Medium,1,1,NONE,7500000,90144.23,Capped Overseas Bowler - Silver,To Be Auctioned
+493,FA8,Tanzim Hasan,Sakib,BAN,OVS,22,BWL,RHB,RIGHT ARM Fast,1,1,NONE,7500000,90144.23,Capped Overseas Bowler - Silver,To Be Auctioned
+494,FA8,Benjamin,Sears,NZ,OVS,27,BWL,RHB,RIGHT ARM Fast,1,1,NONE,5000000,60096.15,Uncapped Overseas Bowler - Platinum,To Be Auctioned
+495,FA8,Tim,Southee,NZ,OVS,36,BWL,RHB,RIGHT ARM Fast Medium,1,1,NONE,8000000,96153.85,Capped Overseas Bowler - Silver,To Be Auctioned
+496,FA8,John,Turner,ENG,OVS,23,BWL,RHB,RIGHT ARM Fast,1,1,NONE,7500000,90144.23,Capped Overseas Bowler - Silver,To Be Auctioned
+497,UBA8,Joshua,Brown,AUS,OVS,31,BAT,RHB,RIGHT ARM Off Spin,0,1,NONE,5000000,60096.15,Uncapped Overseas Batter - Platinum,To Be Auctioned
+498,UBA8,Oliver,Davies,AUS,OVS,24,BAT,RHB,RIGHT ARM Off Spin,0,1,NONE,5000000,60096.15,Uncapped Overseas Batter - Platinum,To Be Auctioned
+499,UBA8,Bevan John,Jacobs,NZ,OVS,22,BAT,RHB,RIGHT ARM Fast Medium,0,1,NONE,5000000,60096.15,Uncapped Overseas Batter - Platinum,To Be Auctioned
+500,UBA8,Atharva,Kale,IND,MACA,25,BAT,RHB,RIGHT ARM Leg Spin,0,0,NONE,3000000,36057.69,Uncapped Indian Batter - Platinum,To Be Auctioned
+501,UBA8,Abhishek,Nair,IND,KCA,20,BAT,RHB,RIGHT ARM Off Spin,0,0,NONE,3000000,36057.69,Uncapped Indian Batter - Platinum,To Be Auctioned
+502,UBA8,Vishwanath Pratap,Singh,IND,PCA,26,BAT,RHB,RIGHT ARM Off Spin,0,0,NONE,3000000,36057.69,Uncapped Indian Batter - Platinum,To Be Auctioned
+503,UAL8,Nasir,Lone,IND,JKCA,27,ALL,RHB,RIGHT ARM Fast Medium,0,0,NONE,3000000,36057.69,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+504,UAL8,Brandon,McMullen,SCO,OVS,25,ALL,RHB,RIGHT ARM Medium,0,1,NONE,7500000,90144.23,Capped Overseas All Rounder - Silver,To Be Auctioned
+505,UAL8,S.,Midhun,IND,KCA,30,ALL,RHB,RIGHT ARM Leg Spin,0,0,NONE,3000000,36057.69,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+506,UAL8,Abid,Mushtaq,IND,JKCA,28,ALL,LHB,LEFT ARM Orthodox,0,0,NONE,3000000,36057.69,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+507,UAL8,Mahesh,Pithiya,IND,BCA,23,ALL,RHB,RIGHT ARM Off Spin,0,0,NONE,3000000,36057.69,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+508,UAL8,Maramreddy,Reddy,IND,ACA,22,ALL,RHB,RIGHT ARM Leg Spin,0,0,NONE,3000000,36057.69,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+509,UAL8,Atit,Sheth,IND,BCA,29,ALL,RHB,RIGHT ARM Fast Medium,0,0,NONE,3000000,36057.69,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+510,UAL8,Jonty,Sidhu,IND,DDCA,27,ALL,LHB,RIGHT ARM Off Spin,0,0,NONE,3000000,36057.69,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+511,UFA8,Mohit,Avasthi,IND,MCA,32,BWL,RHB,RIGHT ARM Fast Medium,0,0,NONE,3000000,36057.69,Uncapped Indian Bowler - Platinum,To Be Auctioned
+512,UFA8,Faridoon,Dawoodzai,AFG,OVS,19,BWL,LHB,LEFT ARM Fast Medium,0,1,NONE,3000000,36057.69,Uncapped Overseas Bowler - Platinum,To Be Auctioned
+513,UFA8,Praful,Hinge,IND,VCA,23,BWL,RHB,RIGHT ARM Fast,0,0,NONE,3000000,36057.69,Uncapped Indian Bowler - Platinum,To Be Auctioned
+514,UFA8,Pankaj,Jaswal,IND,HPCA,29,BWL,RHB,RIGHT ARM Fast,0,0,NONE,3000000,36057.69,Uncapped Indian Bowler - Platinum,To Be Auctioned
+515,UFA8,Vijay,Kumar,IND,UPCA,19,BWL,RHB,RIGHT ARM Fast,0,0,NONE,3000000,36057.69,Uncapped Indian Bowler - Platinum,To Be Auctioned
+516,UFA8,Ashok,Sharma,IND,RCA,22,BWL,RHB,RIGHT ARM Fast,0,0,NONE,3000000,36057.69,Uncapped Indian Bowler - Platinum,To Be Auctioned
+517,UFA8,Mujtaba,Yousuf,IND,JKCA,22,BWL,LHB,LEFT ARM Fast Medium,0,0,NONE,3000000,36057.69,Uncapped Indian Bowler - Platinum,To Be Auctioned
+518,AL9,Ashton,Agar,AUS,OVS,31,ALL,LHB,LEFT ARM Orthodox,1,1,NONE,7500000,90144.23,Capped Overseas All Rounder - Silver,To Be Auctioned
+519,AL9,Roston,Chase,WI,OVS,33,ALL,RHB,RIGHT ARM Off Spin,1,1,NONE,7500000,90144.23,Capped Overseas All Rounder - Silver,To Be Auctioned
+520,AL9,Junior,Dala,SA,OVS,35,ALL,RHB,RIGHT ARM Fast,1,1,NONE,7500000,90144.23,Capped Overseas All Rounder - Silver,To Be Auctioned
+521,AL9,Mahedi,Hasan,BAN,OVS,30,ALL,RHB,RIGHT ARM Off Spin,1,1,NONE,7500000,90144.23,Capped Overseas All Rounder - Silver,To Be Auctioned
+522,AL9,Nangeyalia,Kharote,AFG,OVS,20,ALL,LHB,LEFT ARM Orthodox,1,1,NONE,8000000,96153.85,Capped Overseas All Rounder - Silver,To Be Auctioned
+523,AL9,Dan,Lawrence,ENG,OVS,27,ALL,RHB,RIGHT ARM Off Spin,1,1,NONE,8000000,96153.85,Capped Overseas All Rounder - Silver,To Be Auctioned
+524,AL9,Nathan,Smith,NZ,OVS,26,ALL,RHB,RIGHT ARM Fast,0,1,NONE,8000000,96153.85,Capped Overseas All Rounder - Silver,To Be Auctioned
+525,FA9,James,Anderson,ENG,OVS,42,BWL,LHB,RIGHT ARM Fast,1,1,NONE,10000000,120192.31,Capped Overseas Bowler - Gold,To Be Auctioned
+526,FA9,Kyle,Jamieson,NZ,OVS,30,BWL,RHB,RIGHT ARM Fast,1,1,NONE,8000000,96153.85,Capped Overseas Bowler - Silver,To Be Auctioned
+527,FA9,Chris,Jordan,ENG,OVS,36,BWL,RHB,RIGHT ARM Fast,1,1,NONE,8000000,96153.85,Capped Overseas Bowler - Silver,To Be Auctioned
+528,FA9,Hasan,Mahmud,BAN,OVS,28,BWL,RHB,RIGHT ARM Fast Medium,1,1,NONE,8000000,96153.85,Capped Overseas Bowler - Silver,To Be Auctioned
+529,FA9,Tymal,Mills,ENG,OVS,32,BWL,RHB,LEFT ARM Fast,1,1,NONE,8000000,96153.85,Capped Overseas Bowler - Silver,To Be Auctioned
+530,FA9,David,Payne,ENG,OVS,34,BWL,RHB,LEFT ARM Fast Medium,1,1,NONE,8000000,96153.85,Capped Overseas Bowler - Silver,To Be Auctioned
+531,FA9,Nahid,Rana,BAN,OVS,22,BWL,RHB,RIGHT ARM Fast,1,1,NONE,8000000,96153.85,Capped Overseas Bowler - Silver,To Be Auctioned
+532,UBA9,Prayas Ray,Barman,IND,CAB,22,BAT,RHB,RIGHT ARM Off Spin,0,0,NONE,3000000,36057.69,Uncapped Indian Batter - Platinum,To Be Auctioned
+533,UBA9,Jafar,Jamal,IND,TNCA,35,BAT,RHB,RIGHT ARM Off Spin,0,0,NONE,3000000,36057.69,Uncapped Indian Batter - Platinum,To Be Auctioned
+534,UBA9,Ayaz,Khan,IND,MCA,22,BAT,LHB,LEFT ARM Orthodox,0,0,NONE,3000000,36057.69,Uncapped Indian Batter - Platinum,To Be Auctioned
+535,UBA9,Kaushik,Maity,IND,CAB,25,BAT,RHB,LEFT ARM Orthodox,0,0,NONE,3000000,36057.69,Uncapped Indian Batter - Platinum,To Be Auctioned
+536,UBA9,Rituraj,Sharma,IND,UPCA,22,BAT,LHB,RIGHT ARM Off Spin,0,0,NONE,3000000,36057.69,Uncapped Indian Batter - Platinum,To Be Auctioned
+537,UBA9,Vaibhav,Suryavanshi,IND,BICA,14,BAT,LHB,LEFT ARM Orthodox,0,0,NONE,3000000,36057.69,Uncapped Indian Batter - Platinum,To Be Auctioned
+538,UAL9,Kartik,Chadha,IND,PCA,21,ALL,LHB,RIGHT ARM Leg Spin,0,0,NONE,3000000,36057.69,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+539,UAL9,Writtick,Chatterjee,IND,CAB,32,ALL,RHB,RIGHT ARM Off Spin,0,0,NONE,3000000,36057.69,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+540,UAL9,Prerit,Dutta,IND,PCA,26,ALL,LHB,LEFT ARM Orthodox,0,0,NONE,3000000,36057.69,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+541,UAL9,Rajneesh,Gurbani,IND,MACA,32,ALL,RHB,RIGHT ARM Fast Medium,0,0,NONE,3000000,36057.69,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+542,UAL9,Shubhang,Hegde,IND,KSCA,24,ALL,LHB,LEFT ARM Orthodox,0,0,NONE,3000000,36057.69,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+543,UAL9,Saransh,Jain,IND,MPCA,32,ALL,LHB,RIGHT ARM Off Spin,0,0,NONE,3000000,36057.69,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+544,UAL9,Ripal,Patel,IND,GUCA,29,ALL,RHB,RIGHT ARM Medium,0,0,NONE,3000000,36057.69,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+545,UAL9,Akash,Vashisht,IND,HPCA,30,ALL,LHB,LEFT ARM Orthodox,0,0,NONE,3000000,36057.69,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+546,UFA9,Anirudh,Kanwar,IND,UTCA,31,BWL,RHB,RIGHT ARM Fast,0,0,NONE,3000000,36057.69,Uncapped Indian Bowler - Platinum,To Be Auctioned
+547,UFA9,Shubham,Kapse,IND,VCA,30,BWL,RHB,RIGHT ARM Fast Medium,0,0,NONE,3000000,36057.69,Uncapped Indian Bowler - Platinum,To Be Auctioned
+548,UFA9,Atif,Mushtaq,IND,JKCA,22,BWL,LHB,RIGHT ARM Fast,0,0,NONE,3000000,36057.69,Uncapped Indian Bowler - Platinum,To Be Auctioned
+549,UFA9,Dipesh,Parwani,IND,VCA,25,BWL,LHB,LEFT ARM Fast Medium,0,0,NONE,3000000,36057.69,Uncapped Indian Bowler - Platinum,To Be Auctioned
+550,UFA9,Manish,Reddy,IND,HYCA,26,BWL,RHB,RIGHT ARM Fast Medium,0,0,NONE,3000000,36057.69,Uncapped Indian Bowler - Platinum,To Be Auctioned
+551,UFA9,Chetan,Sharma,IND,RCA,19,BWL,RHB,RIGHT ARM Fast Medium,0,0,NONE,3000000,36057.69,Uncapped Indian Bowler - Platinum,To Be Auctioned
+552,UFA9,Avinash,Singh,IND,JKCA,26,BWL,RHB,RIGHT ARM Fast,0,0,NONE,3000000,36057.69,Uncapped Indian Bowler - Platinum,To Be Auctioned
+553,AL10,Alick,Athanaze,WI,OVS,26,ALL,LHB,RIGHT ARM Off Spin,1,1,NONE,5000000,60096.15,Uncapped Overseas All Rounder - Platinum,To Be Auctioned
+554,AL10,Hilton,Cartwright,AUS,OVS,33,ALL,RHB,RIGHT ARM Medium,1,1,NONE,5000000,60096.15,Uncapped Overseas All Rounder - Platinum,To Be Auctioned
+555,AL10,Dominic,Drakes,WI,OVS,27,ALL,LHB,LEFT ARM Fast,1,1,NONE,7500000,90144.23,Uncapped Overseas All Rounder - Silver,To Be Auctioned
+556,FA10,Daryn,Dupavillon,SA,OVS,30,BWL,RHB,RIGHT ARM Fast,1,1,NONE,5000000,60096.15,Capped Overseas Bowler - Platinum,To Be Auctioned
+557,AL10,Matthew,Forde,WI,OVS,22,ALL,RHB,RIGHT ARM Fast Medium,1,1,NONE,5000000,60096.15,Capped Overseas All Rounder - Platinum,To Be Auctioned
+558,AL10,Patrick,Kruger,SA,OVS,30,ALL,RHB,RIGHT ARM Fast Medium,1,1,NONE,4000000,48076.92,Capped Overseas All Rounder - Platinum,To Be Auctioned
+559,FA10,Lahiru,Kumara,SL,OVS,28,BWL,LHB,RIGHT ARM Fast,0,1,NONE,7500000,90144.23,Capped Overseas Bowler - Silver,To Be Auctioned
+560,AL10,Michael,Neser,AUS,OVS,35,ALL,RHB,RIGHT ARM Fast Medium,1,1,NONE,5000000,60096.15,Capped Overseas All Rounder - Platinum,To Be Auctioned
+561,FA10,Richard,Ngarava,ZIM,OVS,27,BWL,LHB,LEFT ARM Fast Medium,1,1,NONE,4000000,48076.92,Capped Overseas Bowler - Platinum,To Be Auctioned
+562,FA10,Wayne,Parnell,SA,OVS,35,BWL,LHB,LEFT ARM Fast Medium,1,1,NONE,5000000,60096.15,Capped Overseas Bowler - Platinum,To Be Auctioned
+563,AL10,Keemo,Paul,WI,OVS,27,ALL,RHB,RIGHT ARM Fast,1,1,NONE,5000000,60096.15,Capped Overseas All Rounder - Platinum,To Be Auctioned
+564,AL10,Odean,Smith,WI,OVS,28,ALL,RHB,RIGHT ARM Medium,1,1,NONE,8000000,96153.85,Capped Overseas All Rounder - Silver,To Be Auctioned
+565,FA10,Andrew,Tye,AUS,OVS,38,BWL,RHB,RIGHT ARM Fast Medium,1,1,NONE,8000000,96153.85,Capped Overseas Bowler - Silver,To Be Auctioned
+566,UAL10,Ajay,Ahlawat,IND,DDCA,27,ALL,LHB,LEFT ARM Fast,0,0,NONE,3000000,36057.69,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+567,UAL10,Corbin,Bosch,SA,OVS,30,ALL,RHB,RIGHT ARM Fast,0,1,NONE,7500000,90144.23,Uncapped Overseas All Rounder - Silver,To Be Auctioned
+568,UAL10,Mayank,Gusain,IND,DDCA,23,ALL,RHB,RIGHT ARM Fast,0,0,NONE,3000000,36057.69,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+569,UAL10,Mukhtar,Hussain,IND,ASCA,26,ALL,RHB,RIGHT ARM Fast Medium,0,0,NONE,3000000,36057.69,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+570,UAL10,Girinath,Reddy,IND,ACA,26,ALL,RHB,RIGHT ARM Fast Medium,0,0,NONE,3000000,36057.69,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+571,UAL10,Jalaj,Saxena,IND,KCA,38,ALL,RHB,RIGHT ARM Off Spin,0,0,NONE,7500000,90144.23,Uncapped Indian All Rounder - Silver,To Be Auctioned
+572,UAL10,Yajas,Sharma,IND,DDCA,19,ALL,RHB,RIGHT ARM Off Spin,0,0,NONE,3000000,36057.69,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+573,UAL10,Sanjay,Yadav,IND,TNCA,29,ALL,LHB,LEFT ARM Orthodox,0,0,NONE,3000000,36057.69,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+574,UFA10,Vishal,Godara,IND,RCA,22,BWL,LHB,RIGHT ARM Medium,0,0,NONE,3000000,36057.69,Uncapped Indian Bowler - Platinum,To Be Auctioned
+575,UFA10,Eshan,Malinga,SL,OVS,24,BWL,LHB,RIGHT ARM Fast,0,1,NONE,7500000,90144.23,Capped Overseas Bowler - Silver,To Be Auctioned
+576,UFA10,Samarth,Nagraj,IND,KSCA,19,BWL,RHB,RIGHT ARM Fast,0,0,NONE,3000000,36057.69,Uncapped Indian Bowler - Platinum,To Be Auctioned
+577,UFA10,Abhishek,Saini,IND,UTCA,26,BWL,RHB,RIGHT ARM Fast,0,0,NONE,3000000,36057.69,Uncapped Indian Bowler - Platinum,To Be Auctioned
+578,UFA10,Dumindu,Sewmina,SL,OVS,20,BWL,RHB,RIGHT ARM Medium,0,1,NONE,3000000,36057.69,Uncapped Overseas Bowler - Platinum,To Be Auctioned
+579,UFA10,Pradyuman Kumar,Singh,IND,UTCA,23,BWL,RHB,RIGHT ARM Fast,0,0,NONE,3000000,36057.69,Uncapped Indian Bowler - Platinum,To Be Auctioned
+580,UFA10,Vasu,Vats,IND,UPCA,22,BWL,RHB,RIGHT ARM Fast,0,0,NONE,3000000,36057.69,Uncapped Indian Bowler - Platinum,To Be Auctioned
+581,UAL11,Umang,Kumar,IND,GUCA,24,ALL,RHB,RIGHT ARM Off Spin,0,0,NONE,3000000,36057.69,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+582,UAL11,Mohamed,Ali,IND,TNCA,20,ALL,RHB,RIGHT ARM Off Spin,0,0,NONE,3000000,36057.69,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+583,UAL11,Atharva,Ankolekar,IND,MCA,24,ALL,LHB,LEFT ARM Orthodox,0,0,NONE,3000000,36057.69,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+584,UAL11,Vaisakh,Chandran,IND,KCA,28,ALL,RHB,RIGHT ARM Off Spin,0,0,NONE,3000000,36057.69,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+585,UAL11,Auqib,Dar,IND,JKCA,28,ALL,RHB,RIGHT ARM Fast Medium,0,0,NONE,3000000,36057.69,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+586,UAL11,Rohit,Rayudu,IND,HYCA,30,ALL,LHB,RIGHT ARM Off Spin,0,0,NONE,3000000,36057.69,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+587,UAL11,Uday,Saharan,IND,PCA,20,ALL,RHB,RIGHT ARM Off Spin,0,0,NONE,3000000,36057.69,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+588,UAL11,Ayush,Vartak,IND,MCA,20,ALL,RHB,RIGHT ARM Fast Medium,0,0,NONE,3000000,36057.69,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+589,UAL12,Baba,Aparajith,IND,KCA,30,ALL,RHB,RIGHT ARM Off Spin,0,0,NONE,3000000,36057.69,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+590,UAL12,Sumit Kumar,Beniwal,IND,DDCA,25,ALL,RHB,RIGHT ARM Fast,0,0,NONE,3000000,36057.69,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+591,UAL12,Nishunk,Birla,IND,UTCA,20,ALL,RHB,LEFT ARM Orthodox,0,0,NONE,3000000,36057.69,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+592,UAL12,Digvijay,Deshmukh,IND,MACA,26,ALL,RHB,RIGHT ARM Fast Medium,0,0,NONE,3000000,36057.69,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+593,UAL12,Lakshay,Jain,IND,TNCA,22,ALL,LHB,RIGHT ARM Off Spin,0,0,NONE,3000000,36057.69,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+594,UAL12,Duan,Jansen,SA,OVS,24,ALL,RHB,LEFT ARM Fast,0,1,NONE,8000000,96153.85,Capped Overseas All Rounder - Silver,To Be Auctioned
+595,UAL12,Kritagya,Singh,IND,UPCA,24,ALL,LHB,LEFT ARM Orthodox,0,0,NONE,3000000,36057.69,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+596,UAL12,P.,Vignesh,IND,TNCA,20,ALL,LHB,LEFT ARM Orthodox,0,0,NONE,3000000,36057.69,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+597,UAL13,Sabhay,Chadha,IND,CAP,26,ALL,RHB,RIGHT ARM Fast Medium,0,0,NONE,3000000,36057.69,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+598,UAL13,Ben,Howell,ENG,OVS,36,ALL,RHB,RIGHT ARM Leg Spin,0,1,NONE,3000000,36057.69,Uncapped Overseas All Rounder - Platinum,To Be Auctioned
+599,UAL13,Hemanth,Kumar,IND,ACA,20,ALL,LHB,LEFT ARM Orthodox,0,0,NONE,3000000,36057.69,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+600,UAL13,Rohan,Rana,IND,HCA,23,ALL,RHB,RIGHT ARM Fast,0,0,NONE,3000000,36057.69,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+601,UAL13,Bharat,Sharma,IND,CAP,29,ALL,RHB,RIGHT ARM Off Spin,0,0,NONE,3000000,36057.69,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+602,UAL13,Pratham,Singh,IND,RSPB,32,ALL,LHB,RIGHT ARM Off Spin,0,0,NONE,3000000,36057.69,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+603,UAL13,Tripurana,Vijay,IND,ACA,23,ALL,RHB,RIGHT ARM Off Spin,0,0,NONE,3000000,36057.69,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+604,UAL13,Ravi,Yadav,IND,JSCA,27,ALL,RHB,RIGHT ARM Leg Spin,0,0,NONE,3000000,36057.69,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+605,UAL14,Arjun,Azad,IND,UTCA,23,ALL,RHB,RIGHT ARM Leg Spin,0,0,NONE,3000000,36057.69,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+606,UAL14,Abhay,Choudhary,IND,PCA,22,ALL,RHB,RIGHT ARM Leg Spin,0,0,NONE,3000000,36057.69,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+607,UAL14,Gaurav,Gambhir,IND,UTCA,37,ALL,RHB,RIGHT ARM Off Spin,0,0,NONE,3000000,36057.69,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+608,UAL14,Shubham,Garhwal,IND,RCA,29,ALL,LHB,LEFT ARM Orthodox,0,0,NONE,3000000,36057.69,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+609,UAL14,Tejasvi,Jaiswal,IND,TCA,28,ALL,LHB,RIGHT ARM Fast,0,0,NONE,3000000,36057.69,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+610,UAL14,Sairaj,Patil,IND,MCA,28,ALL,RHB,RIGHT ARM Fast Medium,0,0,NONE,3000000,36057.69,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+611,UAL14,Madhav,Tiwari,IND,MPCA,21,ALL,RHB,RIGHT ARM Fast Medium,0,0,NONE,3000000,36057.69,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+612,UAL14,Kamal,Tripathi,IND,MPCA,26,ALL,RHB,RIGHT ARM Off Spin,0,0,NONE,3000000,36057.69,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+613,UAL15,Prashant,Chauhan,IND,CAU,24,ALL,LHB,LEFT ARM Orthodox,0,0,NONE,3000000,36057.69,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+614,UAL15,Yash,Dabas,IND,DDCA,20,ALL,RHB,RIGHT ARM Fast Medium,0,0,NONE,3000000,36057.69,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+615,UAL15,Dhruv,Kaushik,IND,DDCA,24,ALL,RHB,RIGHT ARM Off Spin,0,0,NONE,3000000,36057.69,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+616,UAL15,Khrievitso,Kense,IND,NCA,21,ALL,RHB,RIGHT ARM Leg Spin,0,0,NONE,3000000,36057.69,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+617,UAL15,Akash,Parkar,IND,MCA,30,ALL,RHB,RIGHT ARM Medium,0,0,NONE,3000000,36057.69,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+618,UAL15,Vignesh,Puthur,IND,KCA,24,ALL,RHB,LEFT ARM Leg Spin,0,0,NONE,3000000,36057.69,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+619,UAL15,Tripuresh,Singh,IND,MPCA,22,ALL,RHB,RIGHT ARM Medium,0,0,NONE,3000000,36057.69,Uncapped Indian All Rounder - Platinum,To Be Auctioned
+620,UAL15,Vijay,Yadav,IND,UPCA,23,ALL,RHB,RIGHT ARM Off Spin,0,0,NONE,3000000,36057.69,Uncapped Indian All Rounder - Platinum,To Be Auctioned

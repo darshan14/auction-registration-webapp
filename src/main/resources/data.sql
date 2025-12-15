@@ -26,6 +26,7 @@ INSERT INTO ctplayerrole (cd_player_role_id, cd_player_role, dc_player_role) VAL
 (3, 'ALL', 'All Rounder'),
 (4, 'WK',  'Wicket Keeper');
 
+
 INSERT INTO ctplayercategory VALUES (1, 'BAT', 1, 0, 20000000, 'Capped Indian Batter - Diamond');
 
 INSERT INTO ctplayercategory VALUES (2, 'BAT', 1, 1, 20000000, 'Capped Overseas Batter - Diamond');

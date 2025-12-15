@@ -1,0 +1,86 @@
+body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f9f9f9;
+            color: #333;
+}
+
+h2, h3 {
+            text-align: center;
+            color: #2c3e50;
+}
+
+table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+}
+
+td {
+            vertical-align: top;
+            padding: 10px;
+}
+
+.team-box {
+            background-color: #ecf0f1;
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin-bottom: 8px;
+            border-radius: 6px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.team-logo {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+
+.team-details div {
+    line-height: 1.4;
+}
+
+.player-box {
+            background-color: #ffffff;
+            border-radius: 8px;
+            padding: 20px;
+            text-align: left;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.player-box h3 {
+            margin-top: 0;
+            text-align: center;
+            color: #e74c3c;
+}
+
+.highlight {
+            font-weight: bold;
+            color: #2980b9;
+}
+
+button {
+            cursor: pointer;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+}
+
+button:hover {
+            background-color: #1a5276;
+}
+
+hr {
+            margin: 30px 0;
+            border: none;
+            border-top: 2px solid #bdc3c7;
+}
+
+.user-team {
+            background-color: #dff9fb;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}

@@ -16,6 +16,8 @@
 	<h1>Players List</h1>
 	
 	<a th:href = "@{/showNewPlayerForm}" class="btn btn-primary btn-sm mb-3"> Add Player </a>
+
+	<a th:href = "@{/auction/selectTeam}" class="btn btn-primary btn-sm mb-3"> Start Bidding </a>
 	
 		<table border="1" class = "table table-striped table-responsive-md">
 			<thead>
@@ -57,23 +59,42 @@
 				<div class = "col-sm-2">
 					Total Rows: [[${totalItems}]] 
 				</div>
-				<div class = "col-sm-1">
-					<span th:each="i: ${#numbers.sequence(1, totalPages)}">
-						<a th:if="${currentPage != i}" th:href="@{'/page/' + ${i}+ '?sortField=' + ${sortField} + '&sortDir=' + ${sortDir}}">[[${i}]]</a>
-						<span th:unless="${currentPage != i}">[[${i}]]</span>  &nbsp; &nbsp;
+				<div class="col-sm-8">
+					<span th:if="${currentPage > 1}">
+						<a th:href="@{'/page/' + ${currentPage - 1} + '?sortField=' + ${sortField} + '&sortDir=' + ${sortDir}}">Prev</a>
 					</span>
-				</div>
-				<div class = "col-sm-1">
-					<a th:if="${currentPage < totalPages}" th:href="@{'/page/' + ${currentPage + 1}+ '?sortField=' + ${sortField} + '&sortDir=' + ${sortDir}}">Next</a>
-					<span th:unless="${currentPage < totalPages}">Next</span>
-				</div>
-				
-				 <div class="col-sm-1">
-    				<a th:if="${currentPage < totalPages}" th:href="@{'/page/' + ${totalPages}+ '?sortField=' + ${sortField} + '&sortDir=' + ${sortDir}}">Last</a>
+					<span th:unless="${currentPage > 1}">Prev</span> &nbsp;
+
+					<!-- First page -->
+					<a th:if="${currentPage != 1}" th:href="@{'/page/1?sortField=' + ${sortField} + '&sortDir=' + ${sortDir}}">1</a>
+					<span th:unless="${currentPage != 1}">1</span> &nbsp;
+
+					<!-- Left dots -->
+					<span th:if="${currentPage > 4}">...</span>
+
+					<!-- Pages around current -->
+					<span th:each="i : ${#numbers.sequence(currentPage-2 > 2 ? currentPage-2 : 2, currentPage+2 < totalPages ? currentPage+2 : totalPages-1)}">
+						<a th:if="${currentPage != i}" th:href="@{'/page/' + ${i} + '?sortField=' + ${sortField} + '&sortDir=' + ${sortDir}}">[[${i}]]</a>
+						<span th:unless="${currentPage != i}">[[${i}]]</span> &nbsp;
+					</span>
+
+					<!-- Right dots -->
+					<span th:if="${currentPage + 2 < totalPages - 1}">...</span>
+
+					<!-- Last page -->
+					<a th:if="${currentPage != totalPages}" th:href="@{'/page/' + ${totalPages} + '?sortField=' + ${sortField} + '&sortDir=' + ${sortDir}}">[[${totalPages}]]</a>
+					<span th:unless="${currentPage != totalPages}">[[${totalPages}]]</span> &nbsp;
+
+					<span th:if="${currentPage < totalPages}">
+						<a th:href="@{'/page/' + ${currentPage + 1} + '?sortField=' + ${sortField} + '&sortDir=' + ${sortDir}}">Next</a>
+					</span>
+					<span th:unless="${currentPage < totalPages}">Next</span> &nbsp;
+
+					<span th:if="${currentPage < totalPages}">
+						<a th:href="@{'/page/' + ${totalPages} + '?sortField=' + ${sortField} + '&sortDir=' + ${sortDir}}">Last</a>
+					</span>
 					<span th:unless="${currentPage < totalPages}">Last</span>
-   				 </div>
-			</div>
-		</div>
+				</div>
 	</div>
 </body>
 </html>

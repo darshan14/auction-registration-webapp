@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>IPL Auction</title>
+    <link rel="stylesheet" th:href="@{/css/auctionStyle.css}">
+</head>
+<body>
+
+<h2>🏏 IPL Auction</h2>
+
+<table>
+    <tr>
+        <!-- Left Teams Column -->
+        <td>
+            <div th:each="team : ${leftTeams}" class="team-box d-flex align-items-center p-2 border mb-2">
+
+                <div class="d-flex flex-row p-2">
+                    <div>
+                        <!-- Team Logo -->
+                        <img th:src="@{${team.teamLogoPath}}"
+                             alt="Team Logo"
+                             class="team-logo me-3"
+                             style="width:50px; height:50px; object-fit:contain;"/>
+                    </div>
+                    <!-- Team Details -->
+                    <div class="team-details">
+                        <div><strong th:text="${team.dcTeam}">Team Name</strong></div>
+                        <div>Remaining Purse: ₹<span th:text="${team.amRemainingPurse}"></span></div>
+                        <div>Used Purse: ₹<span th:text="${team.amUsedPurse}"></span></div>
+                        <div>Total Players: <span th:text="${team.totalPlayers}"></span></div>
+                    </div>
+                </div>
+            </div>
+        </td>
+
+        <!-- Player Column -->
+        <td style="width: 40%;">
+            <div class="player-box">
+                <h3 th:text="${player.firstName} + ' ' + ${player.lastName}">Player Name</h3>
+                Player ID: <span th:text="${player.id}">0</span><br>
+                Set ID: <span th:text="${player.idSet}">0</span><br>
+                Country: <span th:text="${player.country}">Country</span><br>
+                State: <span th:text="${player.stateAssociation}">State</span><br>
+                Age: <span th:text="${player.age}">0</span><br>
+                Role: <span th:text="${player.playing_type}">Role</span><br>
+                Batting: <span th:text="${player.battingStyle}">Style</span><br>
+                Bowling: <span th:text="${player.bowlingStyle}">Style</span><br>
+                Status: <span th:text="
+                                ${(player.in_cap == 1 ? 'Capped' : 'Uncapped')
+                                  + ' | '
+                                  + (player.in_overseas == 1 ? 'Overseas' : 'Indian')}
+                            ">
+                            </span><br><br>
+
+                <span class="highlight">Category: <span th:text="${player.category}">Category</span></span><br>
+                <span class="highlight">Base Amount: ₹<span th:text="${player.am_base_rupees} ">0</span></span><br><br>
+
+                <form th:action="@{/bid}" method="post">
+                    <input type="hidden" name="playerId" th:value="${player.id}" />
+                    <button style="background-color:#3498db; color:white; padding:10px 25px;">Bid</button>
+                </form>
+
+                <div th:if="${bidResult != null}" style="margin-top:15px; text-align:center; color:green;">
+                    <h3 th:text="${bidResult}">Bid Result</h3>
+                </div>
+            </div>
+        </td>
+
+        <!-- Right Teams Column -->
+        <td>
+            <div th:each="team : ${rightTeams}" class="team-box d-flex align-items-center p-2 border mb-2">
+                <!-- Team Logo -->
+                <img th:src="@{${team.teamLogoPath}}"
+                     alt="Team Logo"
+                     class="team-logo me-3"
+                     style="width:50px; height:50px; object-fit:contain;"/>
+
+                <!-- Team Details -->
+                <div class="team-details">
+                    <div><strong th:text="${team.dcTeam}">Team Name</strong></div>
+                    <div>Remaining Purse: ₹<span th:text="${team.amRemainingPurse}"></span></div>
+                    <div>Used Purse: ₹<span th:text="${team.amUsedPurse}"></span></div>
+                    <div>Total Players: <span th:text="${team.totalPlayers}"></span></div>
+                </div>
+            </div>
+        </td>
+    </tr>
+</table>
+
+<hr>
+
+<div class="user-team">
+    <!-- Team Logo -->
+    <img th:src="${userTeam.teamLogoPath}"
+         alt="Team Logo"
+         class="team-logo me-3"/>
+    <h3>Your Team: <span th:text="${userTeam.dcTeam}">User Team</span></h3>
+    Remaining Purse: ₹<span th:text="${userTeam.amRemainingPurse}">0</span>
+</div>
+
+</body>
+</html>

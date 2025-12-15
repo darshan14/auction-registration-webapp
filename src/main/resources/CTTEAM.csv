@@ -1,0 +1,12 @@
+cd_team_id,cd_team,dc_team,am_total_puse,am_used_purse,am_remaining_purse,total_indian_players,total_overseas_players,total_players,team_logo_path
+0,NONE,None,1200000000,0,1200000000,16,8,24,/images/teams/none.png
+1,CSK,Chennai Super Kings,1200000000,650000000,550000000,4,1,5,/images/teams/csk.png
+2,DC,Delhi Capitals,1200000000,437500000,762500000,3,1,4,/images/teams/dc.png
+3,GT,Gujrat Titans,1200000000,510000000,690000000,4,1,5,/images/teams/gt.png
+4,KKR,Kolkata Knight Riders,1200000000,570000000,630000000,4,2,6,/images/teams/kkr.png
+5,LSG,Lucknow Super Giants,1200000000,510000000,690000000,4,1,5,/images/teams/lsg.png
+6,MI,Mumbai Indians,1200000000,750000000,450000000,5,0,5,/images/teams/mi.png
+7,PBKS,Punjab Kings,1200000000,95000000,1105000000,2,0,2,/images/teams/pbks.png
+8,RR,Rajasthan Royals,1200000000,790000000,410000000,5,1,6,/images/teams/rr.png
+9,RCB,Royal Challenger Banglore,1200000000,370000000,830000000,3,0,3,/images/teams/rcb.png
+10,SRH,Sun Risers Hyderabad,1200000000,750000000,450000000,2,3,5,/images/teams/srh.png

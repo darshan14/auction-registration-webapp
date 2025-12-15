@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Select Team</title>
+</head>
+<body>
+
+<h2>Select Your Team</h2>
+
+<form th:action="@{/auction/auctionPlayer}" method="post">
+    <select name="userTeam" required>
+        <option th:each="team : ${teamList}"
+                th:value="${team.cdTeam}"
+                th:text="${team.dcTeam}">
+        </option>
+    </select>
+
+    <br><br>
+    <button type="submit">Proceed to Auction</button>
+</form>
+
+</body>
+</html>

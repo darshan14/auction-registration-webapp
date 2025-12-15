@@ -2,6 +2,8 @@ package org.sports.cricket.model;
 
 import jakarta.persistence.*;
 
+import java.math.BigDecimal;
+
 @Entity
 @Table(name = "tbplayerdisplay")
 public class Player {
@@ -22,14 +24,20 @@ public class Player {
     @Column(name = "cd_country")
     private String country;
 
-    @Column(name = "dt_birth")
-    private Integer dt_birth;
-
     @Column(name = "age")
     private Integer age;
 
     @Column(name = "cd_player_role")
     private String playing_type;
+
+    @Column(name = "cd_state_assoc")
+    private String stateAssociation;
+
+    @Column(name = "cd_batting_style")
+    private String battingStyle;
+
+    @Column(name = "cd_bowling_style")
+    private String bowlingStyle;
 
     @Column(name = "in_cap")
     private Integer in_cap;
@@ -41,10 +49,10 @@ public class Player {
     private String cd_team;
 
     @Column(name = "am_base_rupees")
-    private Double am_base_rupees;
+    private BigDecimal am_base_rupees;
 
     @Column(name = "am_base_dollar")
-    private Double am_base_dollar;
+    private BigDecimal am_base_dollar;
 
     @Column(name = "dc_category")
     private String category;
@@ -92,14 +100,6 @@ public class Player {
         this.country = country;
     }
 
-    public Integer getDt_birth() {
-        return dt_birth;
-    }
-
-    public void setDt_birth(Integer dt_birth) {
-        this.dt_birth = dt_birth;
-    }
-
     public Integer getAge() {
         return age;
     }
@@ -114,6 +114,30 @@ public class Player {
 
     public void setPlaying_type(String playing_type) {
         this.playing_type = playing_type;
+    }
+
+    public String getStateAssociation() {
+        return stateAssociation;
+    }
+
+    public void setStateAssociation(String stateAssociation) {
+        this.stateAssociation = stateAssociation;
+    }
+
+    public String getBattingStyle() {
+        return battingStyle;
+    }
+
+    public void setBattingStyle(String battingStyle) {
+        this.battingStyle = battingStyle;
+    }
+
+    public String getBowlingStyle() {
+        return bowlingStyle;
+    }
+
+    public void setBowlingStyle(String bowlingStyle) {
+        this.bowlingStyle = bowlingStyle;
     }
 
     public Integer getIn_cap() {
@@ -140,19 +164,19 @@ public class Player {
         this.cd_team = cd_team;
     }
 
-    public Double getAm_base_rupees() {
+    public BigDecimal getAm_base_rupees() {
         return am_base_rupees;
     }
 
-    public void setAm_base_rupees(Double am_base_rupees) {
+    public void setAm_base_rupees(BigDecimal am_base_rupees) {
         this.am_base_rupees = am_base_rupees;
     }
 
-    public Double getAm_base_dollar() {
+    public BigDecimal getAm_base_dollar() {
         return am_base_dollar;
     }
 
-    public void setAm_base_dollar(Double am_base_dollar) {
+    public void setAm_base_dollar(BigDecimal am_base_dollar) {
         this.am_base_dollar = am_base_dollar;
     }
 

@@ -69,7 +69,7 @@ public class PlayerController {
                                 @RequestParam("sortField") String sortField,
                                 @RequestParam("sortDir") String sortDir,
                                 Model model) {
-        int pageSize = 5;
+        int pageSize = 10;
 
         Page<Player> page = playerService.findPaginated(pageNo, pageSize, sortField, sortDir);
         //List<Player> listPlayers = page.getContent();         -- To Display only Auctioned players.

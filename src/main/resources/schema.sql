@@ -2,6 +2,8 @@ DROP TABLE IF EXISTS tbplayers;
 
 DROP TABLE IF EXISTS tbplayerdisplay;
 
+DROP TABLE IF EXISTS CTTEAM;
+
 DROP TABLE IF EXISTS ctplayerrole;
 
 CREATE TABLE ctplayerrole (
@@ -17,7 +19,6 @@ CREATE TABLE ctcountry (
     cd_country VARCHAR(10),
     dc_country VARCHAR(100)
 );
-
 
 DROP TABLE IF EXISTS ctplayercategory;
 

@@ -12,6 +12,7 @@ public interface PlayerService {
     void savePlayer(PlayerForm playerForm);
     Player getPlayerById(long id);
     void deletePlayerById(long id);
+    Player getNextPlayer();
     Page<Player> findPaginated(int pageNo, int pageSize, String sortField, String sortDirection);
 
 }
