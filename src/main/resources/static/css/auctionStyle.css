@@ -1,86 +1,157 @@
+
+/* General Page Styling */
 body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            background-color: #f9f9f9;
-            color: #333;
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    margin: 0;
+    padding: 0;
+    text-align: center;
 }
 
-h2, h3 {
-            text-align: center;
-            color: #2c3e50;
+h2 {
+    font-size: 28px;
+    margin: 20px 0;
+    color: #333;
 }
 
-table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-top: 20px;
+/* Auction Container Grid */
+.auction-container {
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    gap: 15px;
+    width: 90%;
+    margin: auto;
 }
 
-td {
-            vertical-align: top;
-            padding: 10px;
-}
-
+/* Team Box Styling */
 .team-box {
-            background-color: #ecf0f1;
-            border: 1px solid #ddd;
-            padding: 10px;
-            margin-bottom: 8px;
-            border-radius: 6px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.team-logo {
-    width: 50px;
-    height: 50px;
-    object-fit: contain;
+.team-box strong {
+    font-size: 16px;
+    color: #2c3e50;
 }
 
-.team-details div {
-    line-height: 1.4;
+.team-box div {
+    font-size: 14px;
+    margin: 4px 0;
 }
 
+/* Player Box Styling */
 .player-box {
-            background-color: #ffffff;
-            border-radius: 8px;
-            padding: 20px;
-            text-align: left;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    border: 1px solid #ccc;
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left;
 }
 
 .player-box h3 {
-            margin-top: 0;
-            text-align: center;
-            color: #e74c3c;
+    font-size: 20px;
+    color: #e74c3c;
+    margin-bottom: 10px;
 }
 
+.player-image {
+    width: 120px;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+/* Highlighted Text */
 .highlight {
-            font-weight: bold;
-            color: #2980b9;
+    font-weight: bold;
+    color: #007bff;
 }
 
-button {
-            cursor: pointer;
-            font-size: 16px;
-            border: none;
-            border-radius: 5px;
-            transition: background-color 0.3s;
+/* Panels (Countdown, Bid History, Notifications) */
+.panel {
+    border: 1px solid #ccc;
+    padding: 15px;
+    background-color: #e8f5e9;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-button:hover {
-            background-color: #1a5276;
-}
-
-hr {
-            margin: 30px 0;
-            border: none;
-            border-top: 2px solid #bdc3c7;
-}
-
+/* User Team Section */
 .user-team {
-            background-color: #dff9fb;
-            padding: 15px;
-            border-radius: 8px;
-            text-align: center;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #fff3e0;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
 }
+
+.user-team h3 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* Team Logo */
+img.team-logo {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    margin-right: 10px;
+}
+
+/* Buttons */
+#bidBtn {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 25px;
+    border: 1px solid #2980b9;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+
+    /* Remove default button styles */
+    outline: none;
+    box-shadow: none;
+}
+
+/* Hover effect */
+#bidBtn:hover {
+    background-color: #2980b9;
+}
+
+/* Click (pressed) effect – like input[type=button] */
+#bidBtn:active {
+    background-color: #1f618d;
+    box-shadow: inset 0 2px 4px rgba(0,0,0,0.3);
+    transform: translateY(1px);
+}
+
+/* Optional: focus (keyboard navigation) */
+#bidBtn:focus {
+    border-color: #1f618d;
+}
+
+#bidBtn:disabled {
+    background-color: #bdc3c7;
+    border-color: #95a5a6;
+    cursor: not-allowed;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .auction-container {
+        grid-template-columns: 1fr;
+    }
+    .panel {
+        margin-top: 10px;
+       }

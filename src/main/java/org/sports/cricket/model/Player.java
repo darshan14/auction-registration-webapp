@@ -54,6 +54,9 @@ public class Player {
     @Column(name = "am_base_dollar")
     private BigDecimal am_base_dollar;
 
+    @Column(name = "am_final_rupees")
+    private BigDecimal am_final_rupees;
+
     @Column(name = "dc_category")
     private String category;
 
@@ -180,6 +183,14 @@ public class Player {
         this.am_base_dollar = am_base_dollar;
     }
 
+    public BigDecimal getAm_final_rupees() {
+        return am_final_rupees;
+    }
+
+    public void setAm_final_rupees(BigDecimal am_final_rupees) {
+        this.am_final_rupees = am_final_rupees;
+    }
+
     public String getCategory() {
         return category;
     }
@@ -194,5 +205,28 @@ public class Player {
 
     public void setStatus(String status) {
         this.status = status;
+    }
+
+    @Override
+    public String toString() {
+        return "Player{" +
+                "id=" + id +
+                ", idSet='" + idSet + '\'' +
+                ", firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", country='" + country + '\'' +
+                ", age=" + age +
+                ", playing_type='" + playing_type + '\'' +
+                ", stateAssociation='" + stateAssociation + '\'' +
+                ", battingStyle='" + battingStyle + '\'' +
+                ", bowlingStyle='" + bowlingStyle + '\'' +
+                ", in_cap=" + in_cap +
+                ", in_overseas=" + in_overseas +
+                ", cd_team='" + cd_team + '\'' +
+                ", am_base_rupees=" + am_base_rupees +
+                ", am_base_dollar=" + am_base_dollar +
+                ", category='" + category + '\'' +
+                ", status='" + status + '\'' +
+                '}';
     }
 }

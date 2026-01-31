@@ -8,7 +8,7 @@
 
 <h2>Select Your Team</h2>
 
-<form th:action="@{/auction/auctionPlayer}" method="post">
+<form th:action="@{/auction/auctionPlayer}" method="get">
     <select name="userTeam" required>
         <option th:each="team : ${teamList}"
                 th:value="${team.cdTeam}"

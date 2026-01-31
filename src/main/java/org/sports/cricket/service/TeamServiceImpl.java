@@ -1,5 +1,6 @@
 package org.sports.cricket.service;
 
+import org.sports.cricket.dto.TeamStateDTO;
 import org.sports.cricket.model.Team;
 import org.sports.cricket.repository.TeamRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -7,7 +8,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.Collections;
 import java.util.List;
-import java.util.Optional;
+import java.util.stream.Collectors;
 
 @Service
 public class TeamServiceImpl implements TeamService {
@@ -40,4 +41,19 @@ public class TeamServiceImpl implements TeamService {
         return remainingTeams;
     }
 
+    @Override
+    public List<TeamStateDTO> getAllTeamStates() {
+
+        List<Team> teams = teamRepository.findAll();
+
+        return teams.stream()
+                .map(team -> new TeamStateDTO(
+                        team.getCdTeam(),
+                        team.getAmRemainingPurse(),
+                        team.getAmUsedPurse(),
+                        team.getTotalPlayers()
+                ))
+                .collect(Collectors.toList());
+
+    }
 }

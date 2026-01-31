@@ -66,6 +66,7 @@ public class PlayerServiceImpl implements PlayerService {
         player.setCd_team("NONE");
         player.setAm_base_rupees(BigDecimal.valueOf(am_base_rupees));
         player.setAm_base_dollar(BigDecimal.valueOf(am_base_dollar));
+        player.setAm_final_rupees(BigDecimal.ZERO);
         player.setCategory(dc_category);
         player.setStatus("To Be Auctioned");
         player.setStateAssociation(stateAssoc);
@@ -106,7 +107,7 @@ public class PlayerServiceImpl implements PlayerService {
         if (optional.isPresent()) {
             player = optional.get();
         } else {
-            throw new RuntimeException(" Player not found for id :: " + id);
+            throw new RuntimeException(" Player not found for id : " + id);
         }
         return player;
     }
@@ -116,25 +117,31 @@ public class PlayerServiceImpl implements PlayerService {
         this.playerRepository.deleteById(id);
     }
 
+
     @Override
-    public Player getNextPlayer() {
+    public Player getNextPlayer(long playerId) {
         Optional<Player> nextPlayerOpt;
 
-        if (lastPlayerId == 0) {
+        if (playerId == 0) {
             // first call, pick first non-RT player (id >= 41)
             nextPlayerOpt = playerRepository.findFirstByIdSetNotOrderByIdAsc("RT");
         } else {
-            // subsequent calls, pick next player after lastPlayerId
-            nextPlayerOpt = playerRepository.findNextPlayer(lastPlayerId);
+            // subsequent calls, pick next player after playerId
+            nextPlayerOpt = playerRepository.findNextPlayer(playerId);
         }
 
         if (nextPlayerOpt.isPresent()) {
             Player next = nextPlayerOpt.get();
-            lastPlayerId = next.getId(); // update last picked ID
+            playerId = next.getId(); // update last picked ID
             return next;
         }
 
         return null;
+    }
+
+    @Override
+    public int findLastPlayerId() {
+        return playerRepository.findLastPlayerId();
     }
 
     public Page<Player> findPaginated(int pageNo, int pageSize, String sortField, String sortDirection) {

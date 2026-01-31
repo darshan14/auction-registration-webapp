@@ -23,7 +23,8 @@ public class PlayerController {
 
     @GetMapping("/")
     public String viewHomePage(Model model) {
-        return findPaginated(1, "firstName", "asc", model);
+
+        return findPaginated(1, "category", "asc", "Initial", model);
     }
 
     @GetMapping("/showNewPlayerForm")
@@ -64,18 +65,29 @@ public class PlayerController {
         return "redirect:/";
     }
 
+    @GetMapping("/finalResult")
+    public String displayFinalResult(Model model) {
+
+        return findPaginated(1, "category", "asc", "final", model);
+    }
+
     @GetMapping("/page/{pageNo}")
     public String findPaginated(@PathVariable (value = "pageNo") int pageNo,
                                 @RequestParam("sortField") String sortField,
                                 @RequestParam("sortDir") String sortDir,
+                                @RequestParam("status") String status,
                                 Model model) {
         int pageSize = 10;
+        String filterCategory;
 
         Page<Player> page = playerService.findPaginated(pageNo, pageSize, sortField, sortDir);
+
+        filterCategory = status.equalsIgnoreCase("final") ? "Sold" : "To Be Auctioned";
+
         //List<Player> listPlayers = page.getContent();         -- To Display only Auctioned players.
         List<Player> listPlayers = page.getContent()
                 .stream()
-                .filter(p -> "To Be Auctioned".equalsIgnoreCase(p.getStatus()))
+                .filter(p -> filterCategory.equalsIgnoreCase(p.getStatus()))
                 .toList();
 
         model.addAttribute("currentPage", pageNo);
